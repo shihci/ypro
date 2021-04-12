@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	font-family:"微軟正黑體", Arial;
+
+}
+
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url("../images/star.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+		
+}
+
+
+.logo{
+			position: absolute;
+			margin-top: 0px;
+		}
+		@media screen\0 {
+
+     	.logo{
+			position: absolute;
+			margin-top: -3rem;}
+		}
+			
+		
+		
+		@media (max-width: 991px)
+		{
+			.logo{
+			position: static;
+			margin-top: 0rem;
+		}
+			.logo1
+			{
+				width:50px;
+			}
+				}
+		.home-btn
+		{
+			border-radius: 5px;
+		}
+		.home-btn:hover
+		{
+			
+			box-shadow: 0 0 5px 2px rgba(255,255,255,0.5);
+			cursor: pointer;
+		}
+/*導覽列顏色樣式-start*/
+
+.navbar {
+  background-color: #f9f9f9;
+}
+.navbar .navbar-brand {
+  color: #1f4e78;
+}
+
+.navbar .navbar-text {
+  color: #1f4e78;
+}
+.navbar .navbar-text a {
+  color: #f0f0f0;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #f0f0f0; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #1f4e78;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #2E6CA4;
+
+}
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #f0f0f0;
+}
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #f9f9f9;
+  border-color: #1f4e78;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #1f4e78;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #f0f0f0;
+  background-color: #1f4e78;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: #1f4e78;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #f0f0f0;
+  background-color: #1f4e78;
+}
+.navbar .navbar-toggle {
+  border-color: #1f4e78;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #1f4e78;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #1f4e78;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #1f4e78;
+}
+.navbar .navbar-link {
+  color: #1f4e78;
+}
+.navbar .navbar-link:hover {
+  color: #f0f0f0;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #1f4e78;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f0f0f0;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f0f0f0;
+    background-color: #1f4e78;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #1f4e78;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f0f0f0;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f0f0f0;
+    background-color: #1f4e78;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #1f4e78;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f0f0f0;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f0f0f0;
+    background-color: #1f4e78;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #1f4e78;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f0f0f0;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f0f0f0;
+    background-color: #1f4e78;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #1f4e78;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #f0f0f0;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #f0f0f0;
+  background-color: #1f4e78;
+}
+/*導覽列顏色樣式-end
+漢堡包顏色-start*/
+   .navbar .navbar-toggler {
+        color: rgba(31, 78, 120, 1);
+        border-color: rgba(31, 78, 120, 1);
+    }.navbar .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(31, 78, 120, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+/*漢堡包顏色-end*/
+
+.btn-log {
+    background-color: #2E6C9A;  
+    border: 2px solid #2E6C9A;
+    border-color: #2E6C9A;
+    color: white;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+    
+
+ .btn-log:hover {
+	background-color: white;
+	color: #2E6C9A;
+        
+    }
+

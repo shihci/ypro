@@ -1,0 +1,814 @@
+@charset "UTF-8"
+$color_darkblue: #1c1c80
+$color_blue: #54c3f1
+$color_yellow: #FFB336
+$color_orange: #F58400
+$color_gray: #F2F2F2
+$color_darkblack: #111
+$color_black: #333
+$color_lightgray: #f9f9f9
+
+//all
+*
+	position: relative
+	font-family: "微軟正黑體" ,"Helvetica", "Arial"
+
+html,body
+	display: block
+	margin: 0px
+	padding: 0px
+	overflow-x: hidden
+	width: 100%
+	color: #333
+.max_nav
+	margin: auto
+	max-width: 1400px
+.c_darkblue
+	color: $color_darkblue!important
+.c_blue
+	color: $color_blue!important
+.c_yellow
+	color: $color_yellow!important
+.c_orange
+	color: $color_orange!important
+.bgc_darkblue
+	background-color: $color_darkblue!important
+.bgc_yellow
+	background-color: $color_yellow!important
+.bgc_gray
+	background-color: $color_gray!important
+.ls1
+	letter-spacing: 1px
+.ls5
+	letter-spacing: 5px
+.lh
+	line-height: 36px
+
+.btnblue
+	border: 0
+	color: #4EB2E6
+	padding: 8px 18px
+	background-color: #fff
+	border-bottom: solid 1px #4EB2E6
+
+.btnblue:hover
+	border: 0
+	color: #fff
+	padding: 8px 18px
+	background-color: #4EB2E6
+	border-bottom: solid 1px #4EB2E6
+	transition-duration: 0.5s
+.isms
+	color: $color_blue
+	&:hover
+		color: #1B74DD
+
+.logo
+	position: absolute
+	margin-top: 2px
+
+@media (max-width: 991px)
+	.logo
+		position: static
+		margin-top: 0rem
+	.logo1
+		width: 50px
+
+			
+/*滑動下拉-start*/
+.dropdown:hover>.dropdown-menu
+	display: block
+/*導覽列顏色樣式-start*/
+.navbar
+	background-color: $color_lightgray
+	font-weight: bold
+.navbar .navbar-brand
+	color: $color_darkblue
+//.navbar .navbar-brand:hover,
+//.navbar .navbar-brand:focus
+	color: $color_lightgray
+
+.navbar .navbar-text
+	color: $color_darkblue
+
+.navbar .navbar-text a
+	color: $color_lightgray
+
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus
+	color: $color_lightgray
+
+.navbar .navbar-nav .nav-link
+	color: #3D3D91
+	border-radius: 0.25rem
+	margin: 0 0.25em
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus 
+	color: #54C3F1
+
+.navbar .navbar-nav .dropdown-menu
+	background-color: $color_lightgray
+	border-color: $color_darkblue
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item 
+	color: $color_darkblue
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active 
+	color: $color_lightgray
+	background-color: $color_darkblue
+
+.navbar .navbar-nav .dropdown-menu .dropdown-divider
+	border-top-color: $color_darkblue
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus
+	color: $color_lightgray
+	background-color: $color_darkblue
+
+.navbar .navbar-toggle
+	border-color: $color_darkblue
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus 
+	background-color: $color_darkblue
+
+.navbar .navbar-toggle .navbar-toggler-icon 
+	color: $color_darkblue
+
+.navbar .navbar-collapse,
+.navbar .navbar-form 
+	border-color: $color_darkblue
+
+.navbar .navbar-link
+	color: $color_darkblue
+
+.navbar .navbar-link:hover 
+	color: $color_lightgray
+
+@media (max-width: 575px) 
+	.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item 
+		color: $color_darkblue
+	.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+	.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus
+		color: $color_lightgray
+	.navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active
+		color: $color_lightgray
+		background-color: $color_darkblue
+	.navbar-brand img
+		width: 200px
+		height: 43px
+
+
+@media (max-width: 767px)
+	.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item
+		color: $color_darkblue
+	.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+	.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus
+		color: $color_lightgray
+	.navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active 
+		color: $color_lightgray
+		background-color: $color_darkblue
+
+
+@media (max-width: 991px)
+	.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item 
+		color: $color_darkblue
+	.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+	.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus
+		color: $color_lightgray
+	.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active 
+		color: $color_lightgray
+		background-color: $color_darkblue
+
+@media (max-width: 1199px)
+	.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item
+		color: $color_darkblue
+	
+	.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+	.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus
+		color: $color_lightgray
+
+	.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active
+		color: $color_lightgray
+		background-color: $color_darkblue
+
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item
+	color: $color_darkblue
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus 
+	color: $color_lightgray
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active
+	color: $color_lightgray
+	background-color: $color_darkblue
+@media (max-width:991px)
+	.navbar
+		padding: 0
+	.navbar-nav
+		padding: 0
+	.navbar .navbar-nav .nav-link
+		margin: 0
+		border-bottom: solid 1px #222
+		border-radius: 0px
+	.max_nav.navbar
+		padding-left: 0.5rem
+		padding-right: 0.5rem
+	.collapse.navbar-collapse
+		margin-left: -0.5rem
+		margin-right: -0.5rem
+	.navbar-nav.ml-auto .nav-item a
+		padding-left: 0.5rem!important
+
+.nav-link
+	text-align: left
+.item_en
+	display: none
+	font-size: 13px
+.lan_group
+	flex-direction: row
+	padding: 6px 8px
+.language
+	position: relative
+	width: 24px
+	height: 24px
+	margin: 4px
+	border: solid 2px $color_darkblue
+	background-color: $color_darkblue
+	&.active
+		background-color: #fff
+		& a
+			color: $color_darkblue
+	&:hover
+		background-color: #fff
+		& a
+			color: $color_darkblue
+.language a
+	position: absolute
+	font-size: 14px
+	top: 50%
+	left: 50%
+	transform: translate(-50%,-50%)
+	text-decoration: none
+	color: #fff
+
+@media (min-width:992px)
+	.nav-link
+		text-align: center
+		background-color: #fff
+	.item_en
+		display: block
+
+//導覽列顏色樣式-end
+//漢堡包顏色-start
+.navbar .navbar-toggler 
+		color: $color_darkblue
+		border-color: $color_darkblue
+.navbar .navbar-toggler-icon
+		background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(28,28,128,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+/*漢堡包顏色-end 懸浮按鈕 css-start*/
+.fixed-btn
+	position: fixed
+	right: 10%
+	bottom: -20%
+	z-index: 11
+	-webkit-transition: all 1s ease
+	-moz-transition: all 1s ease
+	-o-transition: all 1s ease
+	transition: all 1s ease
+
+
+@media (max-width: 768px)
+	.fixed-btn
+		right: 15%
+
+
+.fixed-btn.show
+	bottom: 5%
+
+.inforWindows
+	border: solid 2px $color_darkblue
+	border-radius: 10px
+	background-color: #fff
+	position: absolute
+	left: -320px
+	bottom: 0
+.info_1
+	font-size: 1.2rem
+	color: $color_blue
+.info_2
+	font-size: 1rem
+	color: $color_darkblue
+	font-weight: bold
+.info_3
+	font-size: 0.8rem
+	color: #222
+	font-weight: bold
+.fixed-btn-group
+	position: absolute
+	left: 0
+	bottom: 0
+.del
+	position: absolute
+	top: 0px
+	right: 10px
+	border: 0
+	color: $color_black
+	font-size: 20px
+	margin: 1px 0px
+	text-align: center
+	text-decoration: none
+	display: inline-block
+	background-color: #fff
+	border-radius: 3px
+	z-index: 12
+
+.del:hover
+	color: $color_darkblue
+	background-color: #fff
+
+
+.title_zh
+	font-size: 21px
+	font-weight: 600
+	color: $color_darkblue
+.title_en
+	font-size: 12px
+	font-weight:  600
+.bodyTitle
+	font-size: 19px
+	font-weight: 600
+	color: $color_darkblue
+.textp18
+	font-size: 16px
+.textp
+	font-size: 14px
+	color: $color_darkblack
+.textp14
+	font-size: 12px
+@media (min-width:768px)
+	.title_zh
+		font-size: 24px
+	.title_en
+		font-size: 14px
+	.bodyTitle
+		font-size: 21px
+	.textp18
+		font-size: 18px
+	.textp
+		font-size: 16px
+		color: $color_darkblack
+	.textp14
+		font-size: 14px
+.infor_1
+	font-size: 21px
+	color: $color_blue
+	font-weight: bold
+.infor_2
+	font-size: 18px
+	color: $color_darkblue
+	font-weight: bold
+.infor_3
+	font-size: 13px
+
+//00
+
+.carousel-caption-text
+	position: absolute
+	top: 55%
+	transform: translateY(-50%)
+	left: 0
+	right: 0
+	padding: 300px 0
+	text-align: center
+.tp_black
+	background-color: rgba(0,0,0,0.5)
+
+.carousel_title
+	font-size: 24px
+	font-weight: bold
+.carousel_title2
+	font-size: 16px
+	font-weight: bold
+.carousel_title3
+	font-size: 14px
+	font-weight: bold
+.tp_white
+	background-color: rgba(255,255,255,0.6)
+
+.topline
+	border-top: solid 5px #4EB2E6
+	overflow: hidden
+.line
+	width: 30px
+	height: 4px
+	background-color: #4EB2E6
+	transition: all 1s ease-out
+.pd_card
+	height: 420px
+	box-shadow: 0px 5px 6px rgba(0,0,0,0.3)
+
+.bd-img
+	transform: scale(1,1)
+	transition: all 1s ease-out
+
+.pd_card:hover
+	cursor: pointer
+
+.pd_card:hover .bd-img 
+	transform: scale(1.2,1.2)		
+
+.pd_card:hover .line
+	width: 100px
+.card_title
+	font-weight: 600
+	color: $color_darkblue
+	font-size: 18px
+.card_p
+	font-size: 14px
+.card_p.en
+	font-size: 14px
+@media(min-width:360px) and (max-width:576px)
+	.px-ssm-4
+		padding-left: 5rem! important
+		padding-right: 5rem !important
+@media(min-width:576px)
+	.pd_card
+		height: 360px
+@media(min-width:768px)
+	.tp_black
+		background-color: rgba(0,0,0,0)
+	.carousel-caption-text
+		top: 20px
+		transform: inherit
+		left: 10%
+		z-index: 10
+		padding-top: 20px
+		padding-bottom: 20px
+		color: #fff
+		text-align: left
+	.carousel_title
+		font-size: 30px
+	.carousel_title2
+		font-size: 17px
+	.carousel_title3
+		font-size: 15px
+	.tp_white
+		background-color: rgba(255,255,255,0)
+	.pd_card
+		height: 300px
+	.pd_card.en
+		height: 420px
+@media(min-width:992px)
+	.pd_card
+		height: 360px
+	.card_p
+		font-size: 16px
+	.card_p.en
+		font-size: 14px
+
+@media(min-width:1199px)
+	.pd_card
+		height: 380px
+
+
+
+
+	
+//01-05
+.title-poa-center
+	position: absolute
+	top: 50%
+	left: 10%
+	right: 10%
+	transform: translate(0,-50%)
+	text-align: center
+
+.title-poa
+	position: absolute
+	bottom: 10%
+	left: 10%
+	right: 10%
+	text-align: center
+
+.title-large
+	font-size: 32px
+	color: white
+	font-weight: 550
+	text-shadow: 1px 4px 5px #111
+
+.title-medium
+	font-size: 24px
+	color: white
+	font-weight: 550
+	text-shadow: 1px 3px 3px #111
+	
+
+@media(min-width:768px)
+	.title-large
+		font-size: 40px
+		color: white
+		font-weight: 550
+		text-shadow: 1px 4px 5px #111
+
+	.title-medium
+		font-size: 32px
+		color: white
+		font-weight: 550
+		text-shadow: 1px 3px 3px #111
+	
+
+.title-btn
+	display: inline-block
+	color: white
+	font-size: 16px
+	font-weight: 500
+	text-shadow: 1px 3px 3px #111
+
+.title-btn a
+	text-decoration: none
+	color: white
+
+.title-btn a:hover
+	text-decoration: none
+	color: $color_yellow
+
+.smline
+	color: white
+	font-size: 19px
+	font-weight: lighter
+//01
+.poa-map
+	position: relative
+	background-color: $color_darkblue
+	padding: 3rem
+.country
+	font-size: 22px
+	font-weight: 600
+	color: $color_blue
+.city
+	font-size: 18px
+	color: #fff
+.address
+	font-size: 14px
+	color: $color_yellow
+	
+@media(min-width:768px)
+	.poa-map.zh.cn
+		position: absolute
+		left: 50%
+		right: 0%
+		top: 0
+		background-color: $color_darkblue
+		color: #fff
+		padding: 3rem 5rem
+	.country.en
+		margin: 0
+		font-size: 24px
+	.city.en
+		font-size: 18px
+	.address.en
+		font-size: 14px
+	.poa-map.en
+		padding: 3rem 3rem
+@media(min-width:768px) and (max-width:992px)
+	.poa-map
+		padding: 2rem 3rem
+	.country
+		font-size: 18px
+		font-weight: 600
+		color: $color_blue
+	.city
+		font-size: 14px
+		color: #fff
+	.address
+		font-size: 12px
+		color: $color_yellow
+@media(min-width:992px)
+	.poa-map.en
+		position: absolute
+		left: 50%
+		right: 0%
+		top: 0
+		background-color: $color_darkblue
+		color: #fff
+		padding: 3rem 5rem
+	.country.en
+		margin: 0
+		font-size: 20px
+	.city.en
+		font-size: 16px
+	.address.en
+		font-size: 13px
+@media(min-width:1050px)
+	.country.en
+		margin: 0
+		font-size: 20px
+	.city.en
+		font-size: 16px
+	.address.en
+		font-size: 14px
+@media(min-width:1120px)
+	.country.en
+		font-size: 24px
+	.city.en
+		font-size: 18px
+	.address.en
+		font-size: 14px
+	
+	
+.historyBg	
+	background-image: url("../images/01-histoyBG.png")
+	background-repeat: no-repeat
+	background-position: center
+	background-size: contain
+	background-attachment : fixed
+.deedBg
+	background-image: url("../images/01-global.jpg")
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	background-attachment : fixed
+
+.tp_white2
+	background-color: rgba(255,255,255,0.8)
+
+.td_year
+	font-weight: 600
+	font-size: 18px
+	color: $color_darkblue
+.deedtable td
+	border-bottom: 1px solid $color_darkblue
+	padding: 0.3rem
+
+//02
+.service
+	width: 100%
+	background: #fff
+.service-content
+	width: 100%
+	background-color: #F2F2F2
+	padding: 2rem 2rem
+.pd1
+	font-size: 24px
+	color: $color_darkblue
+	font-weight: 550
+	text-align: center
+
+.pd2
+	font-size: 16px
+	color: $color_yellow
+	font-weight: 550
+	text-align: center
+.pd_pict
+	border: 2px solid $color_darkblue
+	padding: 5px
+
+.si
+	background-image: url("../images/02-si.jpg")
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+.siblack
+	background-color: rgba(0,0,0,0.2)
+.tw_bg2
+	position: absolute
+	left: 0%
+	top: 0%
+	right: 0%
+	background-color: rgba(0,0,0,0.5)
+	color: #fff
+	height: 100%
+	padding: 3rem 3rem
+.tw
+	position: relative
+	overflow: hidden
+.tw_bg
+	position: absolute
+	height: 100%
+	
+@media screen and (min-width:576px)
+	.service
+		background: linear-gradient(to top, transparent 50%, $color_darkblue 50%)
+	.pd1
+		font-size: 28px
+		color: #4EB2E6
+		font-weight: 550
+		text-align: left
+	
+	.pd2
+		font-size: 20px
+		color: #F58400
+		font-weight: 550
+		text-align: right
+	
+	.md-tw
+		background-image: url("../images/02-tw.jpg")
+		background-repeat: no-repeat
+		background-position: right
+		background-size: cover
+@media(min-width:768px)
+	.pd1
+		font-size: 32px
+	.pd2
+		font-size: 24px
+@media(min-width:900px)
+	.tw_bg
+		width: 100%
+@media (min-width:992px)
+	.pd1
+		font-size: 40px
+	.pd2
+		font-size: 28px
+	.mapp
+		background-image: url("../images/02-ma.png")
+		background-repeat: no-repeat
+		background-position: center
+		background-size: cover
+
+	.tw_bg2
+		position: absolute
+		left: 0%
+		right: 50%
+		top: 0
+		background-color: $color_darkblue
+		color: #fff
+		padding: 4rem 5rem
+		height: 100%
+@media screen and (min-width:1199px)
+	.mapp
+		min-height: 500px
+//03-1
+.pict1bd
+	border: solid 2px $color_darkblue
+//03-4
+.bgc_health1
+	background-image: url("../images/03-4-health1.jpg")
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+.bgc_health2
+	background-image: url("../images/03-4-health2.jpg")
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+
+@media screen and (min-width:768px)
+	.bgc_health1
+		min-height: 400px
+	
+
+@media screen and (min-width:1200px)
+	.bgc_health1
+		min-height: 450px
+//04-調整
+.client_bdbox div
+	height: 150px
+	line-height: 150px
+	& div
+		border: solid 1px #777
+		border-radius: 5px
+		padding-right: 12px
+		padding-left: 12px
+		cursor: pointer
+	& div:hover
+		box-shadow: 0 0 1rem rgba(0,0,0,.3)
+	& img
+		//border: solid 1px #000
+.modal-footer
+	justify-content: center
+	
+
+//05
+.btnyellow
+	border: 0
+	color: $color_yellow
+	padding: 4px 18px
+	background-color: #fff
+	border-bottom: solid 1px $color_yellow
+
+.btnyellow:hover
+	border: 0
+	color: #FFF
+	padding: 4px 18px
+	background-color: $color_yellow
+	border-bottom: solid 1px $color_yellow
+	transition-duration: 0.5s
+
+
+	
+
+
+	
+
+	
+
+
+
