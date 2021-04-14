@@ -41,18 +41,88 @@ $(window).scroll(function(event) {
   }
 });
 /*慢慢划動至上方*/
-$('a').click(function () {
+$('.fixed-btn-group a').click(function () {
   $('html, body').animate({
     scrollTop: $($(this).attr('href')).offset().top
   }, 1000);
 });
+
+$('.title-btn a').click(function () {
+  $('html, body').animate({
+    scrollTop: $($(this).attr('href')).offset().top
+  }, 1000);
+});
+
 
 //aos.js
 AOS.init(
 
 	{
 	   duration: 700,
-		once: true,
+		once: 'true',
   }
 );
+
+
+//w06-dealer-pd
+$(function(){
+		  	$(".product_img_sm img").click(function(){
+				var N =$(this).attr("src").substring(0);//String.substring( Start , End ),第二個參數是結尾字符，自動擷取至該字符的前一個字符，如果沒有填寫，一樣擷取至最後一個字符。
+				$("#bigimg").attr("src",N);
+		});
+			$("#bigimg").click(function(){
+				var bigimg = $("#bigimg").attr("src");
+				$("#bigimg2").css("display","block");
+				$("#bigimg2").html("<img src='"+ bigimg +"'/>");
+			})
+			$("#bigimg2").click(function(){
+				$("#bigimg2").css("display","none");
+			});
+			
+		  });
+		
+		$('.slider').slick({
+
+			infinite: false,
+			speed: 300,
+			arrows: true,
+			slidesToShow: 4,
+			slidesToScroll: 3,
+
+	  responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 4,
+				infinite: true,
+
+		  }
+		},
+		{
+		  breakpoint: 992,
+		  settings: {
+			slidesToShow: 3,
+			slidesToScroll: 3
+		  }
+		},
+		{
+		  breakpoint: 768,
+		  settings: {
+			slidesToShow: 5,
+			slidesToScroll: 5
+		  }
+		},
+		{
+		  breakpoint: 576,
+		  settings: {
+			slidesToShow: 4,
+			slidesToScroll: 4
+		  }
+		}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+	  ]
+    });
 

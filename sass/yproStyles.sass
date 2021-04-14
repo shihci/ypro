@@ -209,14 +209,15 @@ html,body
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active
 	color: $color_lightgray
 	background-color: $color_darkblue
-@media (max-width:991px)
+
+//原為992(配合螢幕可視導覽列)
+@media (max-width:1050px) 
 	.navbar
 		padding: 0
 	.navbar-nav
 		padding: 0
 	.navbar .navbar-nav .nav-link
 		margin: 0
-		border-bottom: solid 1px #222
 		border-radius: 0px
 	.max_nav.navbar
 		padding-left: 0.5rem
@@ -226,6 +227,9 @@ html,body
 		margin-right: -0.5rem
 	.navbar-nav.ml-auto .nav-item a
 		padding-left: 0.5rem!important
+@media (max-width:991.98px) 
+	.navbar .navbar-nav .nav-link
+		border-bottom: solid 1px #222
 
 .nav-link
 	text-align: left
@@ -258,8 +262,8 @@ html,body
 	transform: translate(-50%,-50%)
 	text-decoration: none
 	color: #fff
-
-@media (min-width:992px)
+//原為992(配合螢幕可視導覽列 在	1050以後顯示)
+@media (min-width:1050px)
 	.nav-link
 		text-align: center
 		background-color: #fff
@@ -400,6 +404,44 @@ html,body
 .carousel_title3
 	font-size: 14px
 	font-weight: bold
+.news
+	border-bottom: dotted 1px #fff
+	& a
+		text-decoration: none
+	&:hover .news-title
+		text-decoration: underline
+.news_scroll
+	height: 300px
+	overflow-y: scroll
+.news-title, .news-date
+	display: inline-block
+
+.news-title
+	color: $color_yellow
+	font-weight: 600
+	font-size: 16px
+	width: 80%
+	overflow: hidden
+	text-overflow: ellipsis
+	white-space: nowrap
+	float: left
+.news-date
+	font-family: "Arial"
+	color: $color_blue
+	font-size: 13px
+	float: right
+	
+
+		
+.news-content
+	color: #fff
+	font-size: 12px
+	overflow: hidden
+	text-overflow: ellipsis
+	display: -webkit-box
+	-webkit-line-clamp: 2
+	-webkit-box-orient: vertical
+	clear: both
 .tp_white
 	background-color: rgba(255,255,255,0.6)
 
@@ -559,8 +601,123 @@ html,body
 .address
 	font-size: 14px
 	color: $color_yellow
+
+.os
+	background-image: url(../images/01_osbg.png)
+	background-size: cover
+	background-position: center center
+.pol-title
+	position: relative
+
 	
+.future_title
+	color: $color_darkblue
+	font-weight: 600
+	font-size: 21px
+.vision
+	background-color: $color_darkblue
+	color: #fff
+.vision_card
+	background-color: #fff
+	border-radius: 12px
+	text-align: center
+	padding: 1rem
+	height: 300px
+	& .v_img
+		height: 120px
+	& h5
+		font-size: 24px
+		font-weight: 700
+		color: $color_darkblue
+	& p
+		font-size: 18px
+		color: $color_blue
+		font-weight: 600
+		padding: 0
+		margin-bottom: 0rem
+
+.num
+	position: relative
+	width: 80px
+
+.mission_title
+	font-size: 20px
+	font-weight: bold
+	color: $color_blue
+.mission_img
+	margin-top: 2rem
+	margin-bottom: 1rem
+.goal_textp
+	position: absolute
+	right: 0
+	font-size: 60px
+	line-height: 46px
+	margin: 0
+	font-weight: bold
+	-webkit-text-stroke: 1.4px $color_darkblue
+	color: #fff
+	font-family: "Arial","微軟正黑體"
+.goal_bg
+	position: absolute
+	bottom: 0
+	width: 100%
+	height: 210px
+	background-color: $color_darkblue
+.goal_wf
+	position: relative
+.goal_pict
+	position: relative
+	top: 50%
+	transform: translateY(-50%)
+	box-shadow: 12px 12px rgba(255, 255, 255, 1)
+
+.goal .container h4
+	color: $color_darkblue
+	font-weight: 700
+.goal_title
+	font-weight: 600
+.goal_color
+	color: $color_blue
+	
+//*
+	border: solid 1px #111
+@media(max-width:333px)
+	.goal_bg
+		height: 230px
+@media(min-width:420px)
+	.goal_bg
+		height: 190px
+@media(min-width:576px)
+	.vision_card
+		margin-left: 2rem
+		height: 240px
+		& h5
+			font-size: 20px
+		& p
+			font-size: 16px
+	.num
+		position: absolute
+		top: -40px
+		left: -40px
+		width: 98px
+	.goal_bg
+		height: 190px
+@media(max-width:767px)
+	
+	.mission_content
+		background-color: $color_yellow
+	.mission_card
+		border-radius: 10px
+		padding: 4px
+		box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5)
+		background-color: #fff
+
 @media(min-width:768px)
+	.poa-title
+		position: absolute
+		z-index: 2
+		left: 50%
+		transform: translate(-50%)
 	.poa-map.zh.cn
 		position: absolute
 		left: 50%
@@ -578,6 +735,46 @@ html,body
 		font-size: 14px
 	.poa-map.en
 		padding: 3rem 3rem
+	.future_gray
+		position: absolute
+		width: 270px
+		height: 460px
+		left: 0
+		bottom: 0
+		background-color: #E0E0E0
+	.future_gray p
+		position: absolute
+		bottom: 0
+		font-size: 50px
+		line-height: 32px
+		margin: 0
+		font-weight: bold
+		-webkit-text-stroke: 1.4px $color_darkblue
+		color: #E0E0E0
+		font-family: "Arial","微軟正黑體"
+	.future_yellow
+		position: absolute
+		bottom: 0
+		right: 0
+		width: 330px
+		height: 0
+		border-bottom: 20px solid $color_yellow
+		border-left: 25px solid transparent
+		margin-left: -35px
+	
+	.vision_card
+		height: 230px
+		& .v_img
+			height: 100px
+	.goal_bg
+		height: 210px
+	.goal_color
+		color: #fff
+
+@media(min-width:830px)
+	.future_gray
+		width: 300px
+		font-size: 65px
 @media(min-width:768px) and (max-width:992px)
 	.poa-map
 		padding: 2rem 3rem
@@ -591,6 +788,13 @@ html,body
 	.address
 		font-size: 12px
 		color: $color_yellow
+	.mission_p
+		font-size: 14px
+@media(min-width:870px)
+		.future_gray
+			width: 	330px
+		.future_gray p
+			font-size: 65px
 @media(min-width:992px)
 	.poa-map.en
 		position: absolute
@@ -607,6 +811,28 @@ html,body
 		font-size: 16px
 	.address.en
 		font-size: 13px
+	.future_gray p
+		font-size: 65px
+		line-height: 45px
+	.future_yellow
+		position: absolute
+		bottom: 0
+		right: 0
+		width: 450px
+		height: 0
+		border-bottom: 25px solid $color_yellow
+		border-left: 30px solid transparent
+		margin-left: -35px
+	.vision_card
+		height: 230px
+		& .v_img
+			height: 120px
+	.goal_bg
+		height: 190px
+	.goal_textp
+		font-size: 80px
+		line-height: 60px
+
 @media(min-width:1050px)
 	.country.en
 		margin: 0
@@ -615,6 +841,11 @@ html,body
 		font-size: 16px
 	.address.en
 		font-size: 14px
+	.future_gray
+		width: 	350px
+	.future_gray p
+		font-size: 65px
+		line-height: 45px
 @media(min-width:1120px)
 	.country.en
 		font-size: 24px
@@ -622,6 +853,22 @@ html,body
 		font-size: 18px
 	.address.en
 		font-size: 14px
+	.future_gray
+		width: 	390px
+
+	.future_gray p
+		font-size: 65px
+		line-height: 45px
+		line-height: 45px
+@media(min-width:1180px)
+	.future_gray
+		width: 420px
+	.future_gray p
+		font-size: 65px
+		line-height: 45px
+@media(min-width:1200px)
+	.goal_bg
+		height: 230px
 	
 	
 .historyBg	
@@ -652,10 +899,11 @@ html,body
 .service
 	width: 100%
 	background: #fff
+	margin-bottom: 3rem !important
 .service-content
 	width: 100%
 	background-color: #F2F2F2
-	padding: 2rem 2rem
+	padding: 1rem
 .pd1
 	font-size: 24px
 	color: $color_darkblue
@@ -663,19 +911,102 @@ html,body
 	text-align: center
 
 .pd2
-	font-size: 16px
+	font-size: 20px
 	color: $color_yellow
 	font-weight: 550
 	text-align: center
 .pd_pict
 	border: 2px solid $color_darkblue
 	padding: 5px
+.techservice
+	position: relative
+	background-color: $color_darkblue
+	& table
+		border: solid 1px
+	& td
+		vertical-align: middle
+	& tr:nth-child(1)
+		font-weight: 600
+		font-size: 20px
+		line-height: 22px
+		& .en
+			font-size: 16px
+			color: $color_orange
+	& td img
+		width: 60%
+.pd3
+	color: $color_darkblue
+	font-size: 28px
+	font-weight: 550
+	padding: 0
+	line-height: 26px
+	-webkit-text-stroke: 1px #fff
+	text-stroke: 1px #fff
+	opacity: 0.5
+.pd4
+	position: absolute
+	top: -94px
+	right: 0
+	-webkit-text-stroke: 1.5px $color_darkblue
+	text-stroke: 1.5px $color_darkblue
+	color: #fff
+	font-weight: 550
+	font-size: 28px
+	line-height: 113px
+.scp table
+	border: solid 2px $color_blue
+.scp tr:nth-child(1) td:nth-child(1)
+	border-top: solid 2px $color_blue
+	font-size: 20px
+	color: $color_darkblue
+	font-weight: 600
+	line-height: 24px
+	& div
+		color: $color_blue
+.scp tr td:nth-child(1) 
+	font-size: 18px
+	font-weight: 550
+.scp_title
+	font-size: 24px
+	font-weight: 550
+	color: $color_blue
+	line-height: 20px
+	z-index: 2
+.scp-img1
+	width: 50%
 
+.scp-img2-1
+	width: 80%
+.scp-img2-2
+	width: 70%
+.scp-img2-3
+	width: 60%
+.scp-img2-4
+	width: 40%
+.scp tr:nth-child(2) td:nth-child(1)
+	width: 40%
+.scp tr td
+	vertical-align: middle
+	
+.scp_td1
+	line-height: 20px
+	& div
+		font-size: 12px
+	& img
+		padding-bottom: 8px
 .si
 	background-image: url("../images/02-si.jpg")
 	background-repeat: no-repeat
 	background-position: center
 	background-size: cover
+.si_title
+	font-size: 28px
+	color: #fff
+	font-weight: 550
+	text-align: center
+	padding-bottom: 1rem
+	& span
+		border-bottom: solid 2px #fff
 .siblack
 	background-color: rgba(0,0,0,0.2)
 .tw_bg2
@@ -695,8 +1026,13 @@ html,body
 	height: 100%
 	
 @media screen and (min-width:576px)
+	.si_title
+		font-size: 32px
 	.service
 		background: linear-gradient(to top, transparent 50%, $color_darkblue 50%)
+		margin-bottom: 4.5rem !important
+	.techservice td img
+			width: 40% 
 	.pd1
 		font-size: 28px
 		color: #4EB2E6
@@ -709,16 +1045,46 @@ html,body
 		font-weight: 550
 		text-align: right
 	
+	.pd3
+		font-size: 36px
+		line-height: 36px
+	.pd4
+		font-size: 32px
+		line-height: 90px
+	.scp tr:nth-child(2) td:nth-child(1)
+		width: 40%
+	.scp-img1
+		width: 35%
+	.scp-img2-1
+		width: 50%
+	.scp-img2-2
+		width: 40%
+	.scp-img2-3
+		width: 30%
+	.scp-img2-4
+		width: 20%
+
 	.md-tw
 		background-image: url("../images/02-tw.jpg")
 		background-repeat: no-repeat
 		background-position: right
 		background-size: cover
 @media(min-width:768px)
+	.service-content
+		padding: 1.8rem
 	.pd1
 		font-size: 32px
 	.pd2
 		font-size: 24px
+	.pd3
+		font-size: 56px
+		line-height: 48px
+	.pd4
+		font-size: 40px
+		line-height: inherit
+	.scp_title
+		font-size: 36px
+		line-height: 30px
 @media(min-width:900px)
 	.tw_bg
 		width: 100%
@@ -742,6 +1108,9 @@ html,body
 		color: #fff
 		padding: 4rem 5rem
 		height: 100%
+	.scp_title
+		font-size: 42px
+		line-height: 36px
 @media screen and (min-width:1199px)
 	.mapp
 		min-height: 500px
@@ -780,12 +1149,23 @@ html,body
 		cursor: pointer
 	& div:hover
 		box-shadow: 0 0 1rem rgba(0,0,0,.3)
-	& img
-		//border: solid 1px #000
+
 .modal-footer
 	justify-content: center
-	
-
+.client_name
+	font-size: 20px
+	color: $color_orange
+	font-weight: 600
+	border-bottom: dotted 2px #acacac
+	margin-bottom: 8px
+.client_table tr td
+	padding-top: 4px
+	padding-bottom: 4px	
+.client_table tr:nth-child(odd)
+	background-color: #ececec
+.client_table tr:nth-child(1)
+	background-color: $color_blue
+	color: #fff	
 //05
 .btnyellow
 	border: 0
@@ -801,12 +1181,243 @@ html,body
 	background-color: $color_yellow
 	border-bottom: solid 1px $color_yellow
 	transition-duration: 0.5s
+//06-dealer
+.product
+	position: relative
+	border: solid 1px #dadada
+	text-align: center
+	border-radius: 5px
+	height: 300px
+	cursor: pointer
+.product img
+	max-width: 80%
+	max-height: 80%
+	position: relative
+	top: 50%
+	transform: translateY(-50%)
+	&:hover
+		max-width: 100%
+		max-height: 100%
+		transition: 0.5s
+		
+.product .learn_more
+	pointer-events: none
+.brand_title
+	margin-bottom: 0.8rem
+	font-size: 20px
+	font-weight: 600
+	color: $color_orange
+	border-bottom: dotted 2px #BCBCBC
+.brand_bg
+	position: absolute
+	top: 10px
+	left: 10px
+	z-index: 2
+	width: 60px
+	height: 60px
+	border: solid 2px $color_blue
+	border-radius: 50%
+	background-color: #fff
+.brand_bg img
+	position: absolute
+	width: 50px
+	top: 50%
+	left: 50%
+	transform: translate(-50%,-50%)
+.pd_name
+	text-align: center
+	width: 600 
+	font-size: 18px
+	color: $color_darkblue
+.learn_more
+	transition: .5s ease
+	opacity: 0
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	-ms-transform: translate(-50%, -50%)
+	text-align: center
+	z-index: 3
+	padding: 0.8rem 1.6rem
+	border: solid 2px $color_orange
+	color: $color_orange
+	font-weight: 600
+	background-color: rgba(255,255,255,0.6)
 
-
+	
+.product:hover img
+	opacity: 0.4
+.product:hover .brand_bg
+	opacity: 0.5
+.product:hover .learn_more
+	opacity: 1
+	
+	//background-color: #999
 	
 
 
+
+
+
+
+//06-1-tyco
+
+.product_img
+	text-align: center
+	padding: 4px
+	border: solid 1px #ededed
+.product_img img
+	max-width: 300px
+	max-height: 300px
+.product_img_sm
+	border: solid 1px #dedede
+	display: inline-block
+	cursor: pointer
+.product_img_sm img
+	width: 50px
+.pd-nav, .pd-item
+	background-color: $color_darkblue 
+	color: #fff
+.pd-item:hover
+	background-color: $color_blue
+	border: solid 1px $color_blue
+	color: #fff
+.pd-content
+	border: solid 1px $color_darkblue
+	border-top: 0px
+.pd-item.active
+	background-color: $color_blue
+	border: solid 1px $color_blue
+.img_group
+	border: solid 1px #ededed
+.pd_title
+	color: $color_darkblue
+	font-weight: 600
+	font-size: 22px
+.pd_int1
+	color: $color_blue
+	font-size: 17px
+	font-weight: 600
+.pd_int2
+	color: #111
+	font-size: 16px
+.pd_feature
+	color: $color_orange
+	font-weight: 600
+.tab-pane h3
+	color: #229FE0
+	font-weight: 600
+	font-size: 22px
+.tab-pane h5
+	color: $color_darkblue
+	font-size: 18px
+	font-weight: 600
+	margin: 0
+.table_subtitle
+	color: $color_darkblue
+	font-size: 18px
+	font-weight: 600
+.table_subtitle2
+	background-color: $color_blue
+	font-size: 18px
+	color: #fff
+.td-first tr td:nth-child(1)
+	color: $color_darkblue
+	font-weight: 600
+#bigimg2
+	width: 100%
+	height: 100%
+	position: fixed
+	background: rgba(0,0,0,.7)
+	top: 0
+	left: 0
+	display: none
+	z-index: 99
+        
+#bigimg2 img
+	width: 100%
+	margin: auto
+	position: fixed
+	left: 0
+	right: 0
+	top: 50%
+	transform: translateY(-50%)
+	cursor: pointer
+	background-color: #fff
+	padding: 1.6rem
+.pd_img_width
+	width: 80%
 	
+.slider 
+	width: 78%
+	margin: 12px auto 8px
+    
+.slick-slide
+	margin: 0px 4px
+    
+.slick-slide img
+	width: 100%
+
+.slick-prev:before, 
+.slick-next:before
+	color: black
+.slick-slide 
+	transition: all ease-in-out .3s
+	opacity: .2
+.slick-active
+	opacity: 1
+.slick-current
+	opacity: 1
+.slick-prev slick-arrow
+	display: inherit
+@media screen and (min-width:576px)
+	#bigimg2 img
+		width: 500px
+@media screen and (min-width:768px)
+	#bigimg2 img
+		width: 600px
+	.pd_title
+		font-size: 24px
+	.product_img img
+		max-width: 250px
+		max-height: 250px
+	.slider 
+		width: 78%
+
+	.slick-slide
+		margin: 0px 4px
+@media screen and (min-width:992px)
+	#bigimg2 img
+		width: 800px
+	.pd_title
+		font-size: 28px
+	.pd_int1
+		font-size: 20px
+	.pd_int2
+		font-size: 18px
+	.product_img img
+		max-width: 300px
+		max-height: 300px
+	.pd_img_width
+		width: 80%
+	.slider
+		width: 85%
+		margin: 16px auto 12px
+	.slick-slide
+		margin: 0px 6px
+@media screen and (min-width:1200px)
+	.product_img img
+		max-width: 400px
+		max-height: 400px
+	
+.table-moxa tr td
+	border: solid 1px $color_gray
+	padding: 4px
+
+.table-moxa tr:nth-child(1)
+	background-color: $color_blue
+	color: #fff
 
 	
 
