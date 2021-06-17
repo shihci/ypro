@@ -16,7 +16,8 @@
 	</style>
 	<body>
 		
-		<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a href="w00_home.html"  class="navbar-brand" > <img src="images/ypro-logo.png" width="250px" height="52px" alt=""/> </a>
+		<div class="nav_shadow">
+			<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a href="w00_home.html"  class="navbar-brand" > <img src="images/ypro-logo.png" width="250px" height="52px" alt=""/> </a>
 		  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 		  <div class="collapse navbar-collapse " id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
@@ -25,7 +26,7 @@
 			  <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="dropdown-toggle">專案產品</span><span class="item_en">Product</span></a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="w03_1_FMCSP.html">企業廠務</a> 
-					<a class="dropdown-item" href="w03_2_SM.html">安全監控</a>
+					<a class="dropdown-item" href="w03_2_SM.html">一卡通</a>
 					<a class="dropdown-item" href="w03_3_IP.html">自動化控制</a>
 					<a class="dropdown-item" href="w03_4_PH.html">公衛醫療</a> </div>
 			  </li>
@@ -36,12 +37,12 @@
 			</ul>
 			  <span class="d-lg-block d-none">|</span>
 			  <ul class="navbar-nav lan_group">
-			   <li class="language"><a href="#">E</a></li>
+			   <li class="language"><a href="w06_dealer_en.html">E</a></li>
 			  <li class="language active"><a href="w06_dealer.html">繁</a></li>
-			  <li class="language"><a href="#">简</a></li>
+			  <li class="language"><a href="w06_dealer_cn.html">简</a></li>
 			  </ul>
 		  </div>
-		</nav>
+		</nav></div>
 		
 		<div class="fixed-btn">
 		  <div id="thediv" class="px-3 pt-1 pb-2 inforWindows" style="display:none">
@@ -67,16 +68,20 @@
 		  </div>
 		</div>
 		
-		<div class="container-fluid p-0 ">
+		<div class="container-fluid p-0 z-1">
 	    	<img src="images/06-banner.jpg" width="100%" alt=""/>
 			<div class="title-poa-center">
 			  <h1 class="title-large">DEALER</h1>
 				<h2 class="title-medium">品牌經銷</h2>
 		  </div>
 			<div class="title-poa d-none d-md-block">
-				<div class="title-btn"><a href="#jsun">JSUN</a></div><span class="smline">&nbsp;|</span>
-				<div class="title-btn"><a href="#egl">EGL</a></div><span class="smline">&nbsp;|</span>
+				<div class="title-btn"><a href="#jsun">JSUN</a></div>
+				<span class="smline">&nbsp;|&nbsp;</span>
+				<div class="title-btn"><a href="#egl">EGL</a></div>
+				<span class="smline">&nbsp;|&nbsp;</span>
 				<div class="title-btn"><a href="#tyco">TYCO</a></div>
+				<span class="smline">&nbsp;|&nbsp;</span>
+				<div class="title-btn"><a href="#moxa">MOXA</a></div>
 			</div>
 		</div>
 		<div class="container py-5">
@@ -88,11 +93,11 @@
 			  </div>
 			
 			<div class="row">
-				<div class="col-12 brand_title">
+				<div id="jsun" class="col-12 brand_title">
 				JSUN
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="w06_pd_jsun_b5012w.html">
+					<a href="product/jsun_b5012w.html">
 						<div class="product">
 							<div class="brand_bg">
 								<img src="images/partner/jsun.png" alt="">
@@ -105,7 +110,7 @@
 				</div>	
 				
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="w06_pd_jsun_b5204l.html">
+					<a href="product/jsun_b5204l.html">
 						<div class="product">
 							<div class="brand_bg">
 								<img src="images/partner/jsun.png" alt="">
@@ -117,7 +122,7 @@
 					<div class="pd_name">【JSUN】UHF RFID Reader-(B5204L)</div>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="w06_pd_jsun_smart_cabinet.html">
+					<a href="product/jsun_smart_cabinet.html">
 				<div class="product">
 					<div class="brand_bg">
 						<img src="images/partner/jsun.png" alt="">
@@ -132,11 +137,40 @@
 				
 			</div>
 			<div class="row">
-				<div class="col-12 brand_title">
-				YTCO
-				</div>
+				<div id="egl" class="col-12 brand_title">EGL</div>
+				
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="w06_pd_tyco_iSTAR_Edge.html">
+					<a href="product/egl_gate.html">
+						<div class="product">
+							<div class="brand_bg">
+								<img src="images/partner/egltec-logo.png" alt="">
+							</div>
+							<img src="images/egl/egl-gate.jpg" alt="">
+							<div class="learn_more">Learn More</div>
+						</div>
+					</a>
+					<div class="pd_name">【EGL】圓角翼閘</div>	
+				</div>
+				
+				<div class="col-12 col-sm-6 col-md-4 pb-4">
+					<a href="product/egl_esd.html">
+						<div class="product">
+							<div class="brand_bg">
+								<img src="images/partner/egltec-logo.png" alt="">
+							</div>
+							<img src="images/egl/egl-esd1.png" alt="">
+							<div class="learn_more">Learn More</div>
+						</div>
+					</a>
+					<div class="pd_name">【EGL】ESD靜電測試儀</div>	
+				</div>
+				
+				
+			</div>
+			<div class="row">
+				<div id="tyco" class="col-12 brand_title"> TYCO </div>
+				<div class="col-12 col-sm-6 col-md-4 pb-4">
+					<a href="product/tyco_iSTAR_Edge.html">
 						<div class="product">
 							<div class="brand_bg">
 								<img src="images/partner/Tyco.png" alt="">
@@ -149,7 +183,7 @@
 				</div>	
 				
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="w06_pd_tyco_iSTAR_Pro.html">
+					<a href="product/tyco_iSTAR_Pro.html">
 						<div class="product">
 							<div class="brand_bg">
 								<img src="images/partner/Tyco.png" alt="">
@@ -161,7 +195,7 @@
 					<div class="pd_name">【TYCO】iSTAR Pro</div>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="w06_pd_tyco_iSTAR_Ultra.html">
+					<a href="product/tyco_iSTAR_Ultra.html">
 						<div class="product">
 							<div class="brand_bg">
 								<img src="images/partner/Tyco.png" alt="">
@@ -173,7 +207,7 @@
 					
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="w06_pd_tyco_CCURE 9000.html">
+					<a href="product/tyco_CCURE 9000.html">
 				<div class="product">
 					<div class="brand_bg">
 						<img src="images/partner/Tyco.png" alt="">
@@ -186,11 +220,60 @@
 				
 			</div>
 			<div class="row">
-				<div class="col-12 brand_title">
+				<div id="moxa" class="col-12 brand_title">
 				MOXA
 				</div>
+				
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="w06_pd_moxa_MGate.html">
+					<a href="product/moxa_AWK-3131A.html">
+						<div class="product">
+							<div class="brand_bg">
+								<img src="images/partner/moxa.png" alt="">
+							</div>
+							<img src="images/moxa/AWK-3131A1.jpg" alt="">
+							  <div class="learn_more">Learn More</div>
+							</div>
+					</a>
+					<div class="pd_name">【MOXA】AWK-3131A 系列</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 pb-4">
+					<a href="product/moxa_AWK-4131A.html">
+						<div class="product">
+							<div class="brand_bg">
+								<img src="images/partner/moxa.png" alt="">
+							</div>
+							<img src="images/moxa/AWK-4131A1.jpg" alt="">
+							  <div class="learn_more">Learn More</div>
+							</div>
+					</a>
+					<div class="pd_name">【MOXA】AWK-4131A 系列</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 pb-4">
+					<a href="product/moxa_EDS-P206A.html">
+						<div class="product">
+							<div class="brand_bg">
+								<img src="images/partner/moxa.png" alt="">
+							</div>
+							<img src="images/moxa/EDS-P206A1.jpg" alt="">
+							  <div class="learn_more">Learn More</div>
+							</div>
+					</a>
+					<div class="pd_name">【MOXA】EDS-P206A 系列</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 pb-4">
+					<a href="product/moxa_IKS-6728A.html">
+						<div class="product">
+							<div class="brand_bg">
+								<img src="images/partner/moxa.png" alt="">
+							</div>
+							<img src="images/moxa/IKS-6728A1.jpg" alt="">
+							  <div class="learn_more">Learn More</div>
+							</div>
+					</a>
+					<div class="pd_name">【MOXA】IKS-6728A 系列</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 pb-4">
+					<a href="product/moxa_MGate.html">
 						<div class="product">
 							<div class="brand_bg">
 								<img src="images/partner/moxa.png" alt="">
@@ -202,17 +285,31 @@
 					<div class="pd_name">【MOXA】MGate MB3180/MB3280/MB3480 系列</div>
 				</div>	
 				<div class="col-12 col-sm-6 col-md-4 pb-4">
-					<a href="product/w06_pd_moxa_NPort-5100A.html">
+					<a href="product/moxa_NPort-5100A.html">
 						<div class="product">
 							<div class="brand_bg">
 								<img src="images/partner/moxa.png" alt="">
 							</div>
-							<img src="images/moxa/AWK-3131A1.jpg" alt="">
+							<img src="images/moxa/NPort-5100A1.jpg" alt="">
 							  <div class="learn_more">Learn More</div>
 							</div>
 					</a>
-					<div class="pd_name">【MOXA】AWK-3131A 系列</div>
-				</div>	
+					<div class="pd_name">【MOXA】NPort-5100A 系列</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 pb-4">
+					<a href="product/moxa_NPort-P5150A.html">
+						<div class="product">
+							<div class="brand_bg">
+								<img src="images/partner/moxa.png" alt="">
+							</div>
+							<img src="images/moxa/NPort-P5150A1.jpg" alt="">
+							  <div class="learn_more">Learn More</div>
+							</div>
+					</a>
+					<div class="pd_name">【MOXA】NPort-P5150A 系列</div>
+				</div>
+				
+				
 			</div>
 		</div>
 	

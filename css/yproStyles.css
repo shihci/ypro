@@ -81,9 +81,14 @@ html, body {
   display: block; }
 
 /*導覽列顏色樣式-start */
+.nav_shadow {
+  box-shadow: 0px 10px 5px -8px rgba(100, 100, 100, 0.2);
+  z-index: 2; }
+
 .navbar {
   background-color: #f9f9f9;
-  font-weight: bold; }
+  font-weight: bold;
+  z-index: 99; }
 
 .navbar .navbar-brand {
   color: #1c1c80; }
@@ -211,6 +216,12 @@ html, body {
   color: #f9f9f9;
   background-color: #1c1c80; }
 
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible; }
+
+.dropdown:hover .dropdown-menu {
+  display: block; }
+
 @media (max-width: 1050px) {
   .navbar {
     padding: 0; }
@@ -307,7 +318,7 @@ html, body {
   border-radius: 10px;
   background-color: #fff;
   position: absolute;
-  left: -320px;
+  left: -280px;
   bottom: 0; }
 
 .info_1 {
@@ -427,6 +438,9 @@ html, body {
 .carousel_title3 {
   font-size: 14px;
   font-weight: bold; }
+
+.news-title-date {
+  cursor: pointer; }
 
 .news {
   border-bottom: dotted 1px #fff; }
@@ -559,6 +573,9 @@ html, body {
 @media(min-width:1199px) {
   .pd_card {
     height: 380px; } }
+.z-1 {
+  z-index: 1; }
+
 .title-poa-center {
   position: absolute;
   top: 50%;
@@ -702,6 +719,8 @@ html, body {
   width: 100%;
   height: 210px;
   background-color: #1c1c80; }
+  .goal_bg.en {
+    height: 285px; }
 
 .goal_wf {
   position: relative; }
@@ -722,12 +741,100 @@ html, body {
 .goal_color {
   color: #54c3f1; }
 
+.os-phone {
+  width: 80%;
+  display: inline-block; }
+
+.os_type1 {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  background: linear-gradient(#1E48B6, #040D4E);
+  border-radius: 50px;
+  color: #fff;
+  z-index: 2; }
+
+.os_type2 {
+  padding-top: 8px;
+  padding-bottom: 4px;
+  width: 100%;
+  background: linear-gradient(#7DEFF8, #0D8DC6);
+  border-radius: 10px;
+  z-index: 2;
+  color: #fff; }
+  .os_type2 hr {
+    padding: 0;
+    margin: 0;
+    opacity: 0.8;
+    background-color: #fff; }
+
+.os_type3 {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  display: inline-block;
+  width: 85%;
+  background: linear-gradient(#FFDA5D, #FF3C17);
+  border-radius: 10px;
+  margin-top: 20px;
+  color: #fff; }
+
+.os_type4 {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  display: inline-block;
+  width: 85%;
+  background: linear-gradient(#FBFF6E, #F0A92D);
+  margin-top: 20px;
+  color: #fff; }
+
+.os_type3::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: -21px;
+  background-color: #FF9700;
+  z-index: 1; }
+
+.os_type4::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: -21px;
+  background-color: #FF9700;
+  z-index: 1; }
+
+.lineos1 {
+  display: none; }
+
+.lineos1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 3px;
+  text-align: left;
+  background-color: #00BAE5;
+  height: calc(100% + 16px); }
+
+.os_vline {
+  display: inline-block;
+  height: 28px;
+  width: 3px;
+  background-color: #00BAE5;
+  margin: -6px; }
+
 @media(max-width:333px) {
   .goal_bg {
     height: 230px; } }
 @media(min-width:420px) {
   .goal_bg {
-    height: 190px; } }
+    height: 190px; }
+    .goal_bg.en {
+      height: 255px; } }
 @media(min-width:576px) {
   .vision_card {
     margin-left: 2rem;
@@ -744,7 +851,9 @@ html, body {
     width: 98px; }
 
   .goal_bg {
-    height: 190px; } }
+    height: 190px; }
+    .goal_bg.en {
+      height: 230px; } }
 @media(max-width:767px) {
   .mission_content {
     background-color: #FFB336; }
@@ -819,6 +928,8 @@ html, body {
 
   .goal_bg {
     height: 210px; }
+    .goal_bg.en {
+      height: 210px; }
 
   .goal_color {
     color: #fff; } }
@@ -892,6 +1003,8 @@ html, body {
 
   .goal_bg {
     height: 190px; }
+    .goal_bg.en {
+      height: 260px; }
 
   .goal_textp {
     font-size: 80px;
@@ -939,7 +1052,9 @@ html, body {
     line-height: 45px; } }
 @media(min-width:1200px) {
   .goal_bg {
-    height: 230px; } }
+    height: 230px; }
+    .goal_bg.en {
+      height: 235px; } }
 .historyBg {
   background-image: url("../images/01-histoyBG.png");
   background-repeat: no-repeat;
@@ -1227,6 +1342,9 @@ html, body {
 .pict1bd {
   border: solid 2px #1c1c80; }
 
+.w3-2_shadow {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); }
+
 .bgc_health1 {
   background-image: url("../images/03-4-health1.jpg");
   background-repeat: no-repeat;
@@ -1269,7 +1387,8 @@ html, body {
 
 .client_table tr td {
   padding-top: 4px;
-  padding-bottom: 4px; }
+  padding-bottom: 4px;
+  vertical-align: middle; }
 
 .client_table tr:nth-child(odd) {
   background-color: #ececec; }
@@ -1554,8 +1673,16 @@ html, body {
     max-height: 400px; } }
 .table-moxa tr td {
   border: solid 1px #F2F2F2;
-  padding: 4px; }
+  padding: 4px;
+  vertical-align: middle;
+  text-align: center; }
 
 .table-moxa tr:nth-child(1) {
   background-color: #54c3f1;
   color: #fff; }
+
+.table-moxa.style2 tr:nth-child(2), .table-moxa.style2 tr:nth-child(3), .table-moxa.style2 tr:nth-child(4) {
+  background-color: #54c3f1; }
+
+#menu, #menu1, #menu2 {
+  overflow: scroll; }

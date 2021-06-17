@@ -18,7 +18,8 @@
 	}
 </style>
 <body>
-	<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a href="w00_home.html"  class="navbar-brand" > <img src="images/ypro-logo.png" width="250px" height="52px" alt=""/> </a>
+	<div class="nav_shadow">
+			<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a href="w00_home.html"  class="navbar-brand" > <img src="images/ypro-logo.png" width="250px" height="52px" alt=""/> </a>
 		  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 		  <div class="collapse navbar-collapse " id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
@@ -27,7 +28,7 @@
 			  <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="dropdown-toggle">專案產品</span><span class="item_en">Product</span></a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="w03_1_FMCSP.html">企業廠務</a> 
-					<a class="dropdown-item" href="w03_2_SM.html">安全監控</a>
+					<a class="dropdown-item" href="w03_2_SM.html">一卡通</a>
 					<a class="dropdown-item" href="w03_3_IP.html">自動化控制</a>
 					<a class="dropdown-item" href="w03_4_PH.html">公衛醫療</a> </div>
 			  </li>
@@ -43,7 +44,7 @@
 			  <li class="language"><a href="w02_service_cn.html">简</a></li>
 			  </ul>
 		  </div>
-		</nav>
+		</nav></div>
 	<div class="fixed-btn">
 	  <div id="thediv" class="px-3 pt-1 pb-2 inforWindows" style="display:none">
 		<button type="button" id="close" class="del"  data-dismiss="informWindows">×</button>
@@ -67,22 +68,22 @@
 		<div id="link"><img src="images/fixbtn2.png" width="50" height="50" alt=""/></div>
 	  </div>
 	</div>
-	<div class="container-fluid p-0 "> <img src="images/02-banner.jpg" width="100%" alt=""/>
+	<div class="container-fluid p-0 z-1"> <img src="images/02-banner.jpg" width="100%" alt=""/>
 	  <div class="title-poa-center">
 		<h1 class="title-large">SERVICE</h1>
 		<h2 class="title-medium">服務內容</h2>
 	  </div>
 	  <div class="title-poa d-none d-md-block">
-		<div class="title-btn" > <a href="#si">專案流程開發</a></div>
+		<div class="title-btn" > <a href="#service">專案流程開發</a></div>
 		<span class="smline">&nbsp;|&nbsp;</span>
-		<div class="title-btn"><a href="#mapp">服務領域</a></div>
+		<div class="title-btn"><a href="#techservice">服務領域</a></div>
 		<span class="smline">&nbsp;|&nbsp;</span>
-		<div class="title-btn"><a href="#tw">合作夥伴鏈</a></div>
+		<div class="title-btn"><a href="#scp">合作夥伴鏈</a></div>
 		<span class="smline">&nbsp;|&nbsp;</span>
 		<div class="title-btn" > <a href="#si">服務類型</a></div>
 	  </div>
 	</div>
-	<div class="service mt-md-5 m-0 ">
+	<div class="service mt-md-5 m-0" id="service">
 	  <div data-aos="fade-up">
 		<div class="container p-0 pd1">Process Development</div>
 		<div class="container p-0 pd2">專案流程開發</div>
@@ -90,69 +91,58 @@
 	  <div class="container service-content text-center d-none d-sm-block" data-aos="fade-up" data-aos-delay="200"> <img class="pd_pict" src="images/02-flowchart.png" width="100%"  alt=""/> </div>
 		<div class="container service-content d-sm-none">
 			<div class="row">
-				<div class="col-12 text-center pt-2"><img src="images/sm/set1.png" width="50%" alt=""></div>
-				<div class="col-4 pt-2 text-right"><img src="images/sm/line1.png" width="20px" alt=""></div>
-				<div class="col-8 pt-2">
+				<div class="col-12 text-center pt-2" data-aos="flip-up" data-aos-delay="200"><img src="images/sm/set1.png" width="50%" alt=""></div>
+				<div class="col-4 pt-2 text-right"  data-aos="fade-up" data-aos-delay="400"><img src="images/sm/line1.png" width="20px" alt=""></div>
+				<div class="col-8 pt-2"  data-aos="fade-right" data-aos-delay="800">
 					•現行環境與作業描述<br>
 					•系統目標及需求<br>
 					•可行方案
 				</div>
-				<div class="col-12 text-center pt-2"><img src="images/sm/set2.png" width="50%" alt=""></div>
-				<div class="col-4 pt-2 text-right"><img src="images/sm/line2.png" width="20px" alt=""></div>
-				<div class="col-8 pt-2">
+				<div class="col-12 text-center pt-2" data-aos="flip-up" data-aos-delay="900"><img src="images/sm/set2.png" width="50%" alt=""></div>
+				<div class="col-4 pt-2 text-right"  data-aos="fade-up" data-aos-delay="1100"><img src="images/sm/line2.png" width="20px" alt=""></div>
+				<div class="col-8 pt-2" data-aos="fade-right" data-aos-delay="1300">
 					•歸納現行作業問題<br>
 					•瞭解使用者需求
 				</div>
-				<div class="col-12 text-center pt-2"><img src="images/sm/set3.png" width="50%" alt=""></div>
-				<div class="col-4 pt-2 text-right"><img src="images/sm/line3.png" width="20px" alt=""></div>
-				<div class="col-8 pt-2">
+				<div class="col-12 text-center pt-2" data-aos="flip-up" data-aos-delay="200"><img src="images/sm/set3.png" width="50%" alt=""></div>
+				<div class="col-4 pt-2 text-right" data-aos="fade-up" data-aos-delay="400"><img src="images/sm/line3.png" width="20px" alt=""></div>
+				<div class="col-8 pt-2"  data-aos="fade-right" data-aos-delay="800">
 					•系統管理規範<br>
 					•訂定系統架構、功能、流程與軟硬體規格
 				</div>
-				<div class="col-12 text-center pt-2"><img src="images/sm/set4.png" width="50%" alt=""></div>
-				<div class="col-4 pt-2 text-right"><img src="images/sm/line4.png" width="20px" alt=""></div>
-				<div class="col-8 pt-2">
+				<div class="col-12 text-center pt-2" data-aos="flip-up" data-aos-delay="900"><img src="images/sm/set4.png" width="50%" alt=""></div>
+				<div class="col-4 pt-2 text-right" data-aos="fade-up" data-aos-delay="1100"><img src="images/sm/line4.png" width="20px" alt=""></div>
+				<div class="col-8 pt-2" data-aos="fade-right" data-aos-delay="1300">
 					•程式設計<br>
 					•單元測試與整體測試
 				</div>
-				<div class="col-12 text-center pt-2 pb-3"><img src="images/sm/set5.png" width="50%" alt=""></div>
-				
-				
-					
+				<div class="col-12 text-center pt-2 pb-3"  data-aos="fade-right" data-aos-delay="1500"><img src="images/sm/set5.png" width="50%" alt=""></div>
 				
 			</div>
 		</div>
 		 
 	</div>
 	
-	<div class="techservice">
-		<div class="container pd3">服務領域</div>
-		<div class="container"><div class="pd4">Technology Service</div></div>
+	<div class="techservice" id="techservice">
+		<div class="container pd3" data-aos="fade-right" data-aos-delay="100">服務領域</div>
+		<div class="container" data-aos="fade-left"><div class="pd4">Technology Service</div></div>
 		<div class="container text-center pt-3 pb-3 pb-md-5 ">
-			<div class="d-none d-md-block"><img src="images/02-techService.png" width="80%" alt=""></div>
-			<div class="d-md-none">
+			<div class="d-none d-md-block" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-out-cubic"><img src="images/02-techService.png" width="80%" alt=""></div>
+			<div class="d-md-none" data-aos="fade-up" data-aos-delay="400">
 				<table class="text-white table">
 					<tr>
 						<td colspan="2">系統集成<div class="en">System Integration</div></td>
 					</tr>
 					<tr>
-						<td width="40%"><img src="images/sm/si1.png" alt=""><br>
-							公衛醫療</td>
-						<td>癌症管理系統<br>
-							門急診系統<br>
-							住院系統<br>
-							糖尿病照護系統</td>
+						<td  width="40%"><img src="images/sm/si1.png" alt=""><br>
+							企業廠務</td>
+						<td>廠務管理平台<br>
+							警報管理<br>
+							品質管理<br>
+							iPad巡檢稽核</td>
 					</tr>
 					<tr>
 						<td><img src="images/sm/si2.png" alt=""><br>
-							自動化</td>
-						<td>自動供料系統<br>
-							自動物料管理<br>
-							自動倉儲系統<br>
-							物料防呆系統</td>
-					</tr>
-					<tr>
-						<td><img src="images/sm/si3.png" alt=""><br>
 							一卡通</td>
 						<td>一卡通解決方案<br>
 							安防/監控系統<br>
@@ -160,25 +150,32 @@
 							數據分析挖掘</td>
 					</tr>
 					<tr>
-						<td><img src="images/sm/si4.png" alt=""><br>
-							企業廠務</td>
-						<td>廠務管理平台<br>
-							警報管理<br>
-							品質管理<br>
-							iPad巡檢稽核</td>
+						<td><img src="images/sm/si3.png" alt=""><br>
+							自動化</td>
+						<td>自動供料系統<br>
+							自動物料管理<br>
+							自動倉儲系統<br>
+							物料防呆系統</td>
 					</tr>
-					
+					<tr>
+						<td><img src="images/sm/si4.png" alt=""><br>
+							公衛醫療</td>
+						<td>癌症管理系統<br>
+							門急診系統<br>
+							住院系統<br>
+							糖尿病照護系統</td>
+					</tr>
 				</table>
 			</div>
 		</div>
 	</div>
-	<div class="scp pt-3 pb-0 py-sm-5">
-		<div class="scp_title text-center">
+	<div class="scp pt-3 pb-0 py-sm-5" id="scp">
+		<div class="scp_title text-center" data-aos="fade-dowm">
 			Supply Chain Partnership
 		</div>
 		<div class="container service-content text-center">
-			<div class="d-none d-md-block"><img class="pd_pict p-4" src="images/02-scp.png" width="100%" alt=""></div>
-			<div class="d-md-none">
+			<div class="d-none d-md-block" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-out-cubic"><img class="pd_pict p-4" src="images/02-scp.png" width="100%" alt=""></div>
+			<div class="d-md-none" data-aos="fade-up" data-aos-delay="400">
 				<table class="table scp">
 					<tr>
 						<td colspan="2">合作夥伴鏈<div>SCP</div></td>
@@ -193,22 +190,24 @@
 					<tr>
 						<td class="scp_td1" style="color: #021BBB;"><img class="scp-img1" src="images/sm/scp2.png" alt=""><br>硬體<div>Hardware
 							</div></td>
-						<td><img class="scp-img2-3" src="images/partner/aten.png" width="80%" alt=""><br>
-							<img class="scp-img2-1" src="images/partner/muratec.png" width="80%" alt=""><br>
-							<img class="scp-img2-1" src="images/partner/moxa.png" width="80%" alt=""></td>
+						<td><img class="scp-img2-4" src="images/partner/dell.png" width="40%" alt=""><br>
+							<img class="scp-img2-3" src="images/partner/mic-logo.png" width="60%" alt=""><br>
+							<img class="scp-img2-2" src="images/partner/Tyco.png" width="70%" alt=""></td>
+						
 					</tr>
 					<tr>
 						<td class="scp_td1" style="color: #F04D33;"><img class="scp-img1" src="images/sm/scp3.png" alt=""><br>自動化<div>Automation
 							</div></td>
-						<td><img class="scp-img2-1" src="images/partner/uis.png" width="80%" alt=""><br>
-							<img class="scp-img2-1" src="images/partner/LandK.png" width="80%" alt=""></td>
+						<td><img class="scp-img2-3" src="images/partner/aten.png" width="80%" alt=""><br>
+							<img class="scp-img2-1" src="images/partner/muratec.png" width="80%" alt=""><br>
+							<img class="scp-img2-1" src="images/partner/moxa.png" width="80%" alt=""></td>
+						
 					</tr>
 					<tr>
 						<td class="scp_td1" style="color: #6136FF;"><img class="scp-img1" src="images/sm/scp4.png" alt=""><br>工程<div>Engineering
 							</div></td>
-						<td><img class="scp-img2-4" src="images/partner/dell.png" width="40%" alt=""><br>
-							<img class="scp-img2-3" src="images/partner/mic-logo.png" width="60%" alt=""><br>
-							<img class="scp-img2-2" src="images/partner/Tyco.png" width="70%" alt=""></td>
+						<td><img class="scp-img2-1" src="images/partner/uis.png" width="80%" alt=""><br>
+							<img class="scp-img2-1" src="images/partner/LandK.png" width="80%" alt=""></td>
 					</tr>
 				</table>
 			</div>

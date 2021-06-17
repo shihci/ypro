@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOXA/Dealer-YPRO</title>
+<!-- Bootstrap -->
+<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="../css/aos.css" rel="stylesheet">
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" href="../css/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" href="../css/slick-theme.css" />
+<link href="../css/yproStyles.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="../images/ypro-icon.png" type="image/x-icon">
+</head>
+<style>
+	/*{
+		border:solid 1px;
+	}*/
+
+	</style>
+	<body>
+		
+		<div class="nav_shadow">
+			<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a href="../w00_home_en.html"  class="navbar-brand" > <img src="../images/ypro-logo.png" width="250px" height="52px" alt=""/> </a>
+		  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item"> <a class="nav-link" href="../w01_about-ypro_en.html">About
+				 </a> </li>
+			  <li class="nav-item"> <a class="nav-link" href="../w02_service_en.html">Service</a> </li>
+			  <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="dropdown-toggle">Product</span></a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="../w03_1_FMCSP_en.html">Facility Monitor &amp; Control System Project</a> 
+					<a class="dropdown-item" href="../w03_2_SM_en.html">All-in-one card</a>
+					<a class="dropdown-item" href="../w03_3_IP_en.html">Intelligent Project</a>
+					<a class="dropdown-item" href="../w03_4_PH_en.html">Public Health</a>  </div>
+			  </li>
+			  <li class="nav-item"> <a class="nav-link" href="../w06_dealer_en.html">Dealer</a></li>
+			  <li class="nav-item"> <a class="nav-link" href="../w04_client_en.html">Partners</a></li>
+			  <li class="nav-item"> <a class="nav-link " href="../w05_Recruit_en.html">Recruit</a></li>
+			  <li class="nav-item"> <a class="nav-link " href="http://ems.ypro.com.tw/YPro/login.aspx">Staff</a> </li>
+			</ul>
+			  <span class="d-lg-block d-none">|</span>
+			  <ul class="navbar-nav lan_group">
+			  <li class="language active"><a href="../product/moxa_AWK-3131A_en.html">E</a></li>
+			  <li class="language"><a href="../product/moxa_AWK-3131A.html">繁</a></li>
+			  <li class="language"><a href="../product/moxa_AWK-3131A_cn.html">简</a></li>
+			  </ul>
+		  </div>
+		</nav></div>
+		<div class="fixed-btn">
+		  <div id="thediv" class="px-3 pt-1 pb-2 inforWindows" style="display:none">
+			<button type="button" id="close" class="del"  data-dismiss="informWindows">×</button>
+			<div class="info_1">Contact</div>
+			<div class="info_2">Ying Pao Technology INC.</div>
+			<table class="info_3" cellpadding="0">
+			  <tr>
+				<td rowspan="3" width="2px" class="bgc_yellow"></td>
+				<td class="pl-2">Tax：+886-4-26201610</td>
+			  </tr>
+			  <tr>
+				<td class="pl-2">Fax：amyHsu@ypro.com</td>
+			  </tr>
+			  <tr>
+				<td class="pl-2">Add：No. 158, Wucuo Rd., Qingshui Dist., Taichung City 436, Taiwan (R.O.C.)</td>
+			  </tr>
+			</table>
+		  </div>
+		  <div class="d-inline-block fixed-btn-group">
+			<div class="pb-2"><a id="go-top" href="#myAnchor"><img  src="../images/fixbtn1.png" width="50" height="50" alt=""/></a></div>
+			<div id="link"><img src="../images/fixbtn2.png" width="50" height="50" alt=""/></div>
+		  </div>
+		</div>
+	
+		
+	<div class="container-fluid p-0 ">
+	    	<img src="../images/06-banner.jpg" width="100%" alt=""/>
+			<div class="title-poa-center">
+			  <h1 class="title-large">DEALER</h1>
+		  </div>
+			<div class="title-poa d-none d-md-block">
+				<div class="title-btn"><a href="../w06_dealer_en.html">JSUN</a></div>
+				<span class="smline">&nbsp;|&nbsp;</span>
+				  <div class="title-btn"><a href="../w06_dealer_en.html">EGL</a></div>
+				<span class="smline">&nbsp;|&nbsp;</span>
+				<div class="title-btn"><a href="../w06_dealer_en.html">TYCO</a></div>
+				<span class="smline">&nbsp;|&nbsp;</span>
+				<div class="title-btn"><a href="../w06_dealer_en.html">MOXA</a></div>
+			</div>
+		</div>
+		<div class="container py-5">
+			<div class="row mb-4">
+				<div class="col-12 order-2 col-md-5 order-md-1">
+					<div class="img_group">
+					<div class="product_img">
+						<img id="bigimg" src="../images/moxa/AWK-3131A1.jpg" alt=""></div>
+					<div id="bigimg2"><!--放大圖滿版用，請勿刪除--></div>
+					<div class="img_group">
+						<div class="slider">
+							<div  class="product_img_sm"><img src="../images/moxa/AWK-3131A1.jpg" alt=""></div>
+							<div  class="product_img_sm"><img src="../images/moxa/AWK-3131A2.jpg" alt=""></div>
+							<div  class="product_img_sm"><img src="../images/moxa/AWK-3131A3.jpg" alt=""></div>
+							<div  class="product_img_sm"><img src="../images/moxa/AWK-3131A4.jpg" alt=""></div>
+							<div  class="product_img_sm"><img src="../images/moxa/AWK-3131A5.jpg" alt=""></div>
+						</div>
+					</div>
+					</div>
+				</div>	
+				
+				<div class="col-12 order-1 col-md-7 order-md-2">
+					<h4 class="pd_title">【MOXA】AWK-3131A Series</h4>
+					<div class="pd_int1">Industrial IEEE 802.11a/b/g/n wireless AP/bridge/client</div>
+					
+					<div class="pd_feature ">
+						• IEEE 802.11a/b/g/n AP/bridge/client support<br>
+						•Easy setup and deployment with AeroMag<br>
+						•Millisecond-level Client-based Turbo Roaming <br>
+						•Complete redundancy with AeroLink Protection<br>
+						•Easy network setup with Network Address Translation (NAT)<br>
+						•Integrated antenna and power isolation<br>
+						•-40 to 75°C wide operating temperature range (-T models)<br>
+						•5 GHz DFS channel support
+					</div>
+		</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-12">
+					
+					
+					<ul class="nav pd-nav">
+						<li class="nav-item">
+						  <a class="nav-link pd-item  active" data-toggle="tab" href="#home">Introduction</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link pd-item" data-toggle="tab" href="#menu1">Features</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link pd-item" data-toggle="tab" href="#menu2">Specifications</a>
+						</li>
+					  </ul>
+					<div class="pd-content tab-content">
+						<div id="home" class="container tab-pane active"><br>
+						  <h3>Introduction</h3>
+						  	<p>&emsp;&emsp;The AWK-3131A 3-in-1 industrial wireless AP/bridge/client meets the growing need for faster data transmission speeds by supporting IEEE 802.11n technology with a net data rate of up to 300 Mbps. The AWK-3131A is compliant with industrial standards and approvals covering operating temperature, power input voltage, surge, ESD, and vibration. The two redundant DC power inputs increase the reliability of the power supply, and the AWK-3131A can be powered via PoE to make deployment easier. The AWK-3131A can operate on either the 2.4 or 5 GHz bands and is backwards-compatible with existing 802.11a/b/g deployments to future-proof your wireless investments. The Wireless add-on for the MXview network management utility visualizes the AWK's invisible wireless connections to ensure wall-to-wall Wi-Fi connectivity.</p>
+						 </div>
+						 
+							 
+							  
+						
+						
+						<div id="menu1" class="container tab-pane fade"><br>
+						  <h3>Features</h3>
+						<h5>Advanced 802.11n Industrial Wireless Solution</h5>
+							<p>
+
+							</p>
+							<p>802.11a/b/g/n compliant AP/bridge/client for flexible deployment<br>
+								Software optimized for long-distance wireless communication with up to 1 km line of sight and external high-gain antenna (available only on 5 GHz)<br>
+								Supports 60 clients connected concurrently<br>
+								DFS channel support allows a wider range of 5 GHz channel selection to avoid interference from existing wireless infrastructure
+							</p>
+						<h5>Advanced Wireless Technology</h5>
+						<p>
+							AeroMag supports error-free setup of your industrial applications' fundamental WLAN settings<br>
+							Seamless roaming with client-based Turbo Roaming  for &lt; 150 ms roaming recovery time between APs (Client Mode)<br>
+							Supports AeroLink Protection for creating a redundant wireless link (&lt; 300 ms recovery time) between APs and their clients
+							</p>
+							<h5>Industrial Ruggedness</h5>
+						<p>
+							Integrated antenna and power isolation designed to provide 500 V insulation protection against external electrical interference<br>
+							Hazardous location wireless communication with Class I Div. II and ATEX Zone 2 certifications<br>
+							-40 to 75°C wide operating temperature models (-T) provided for smooth wireless communication in harsh environments
+							</p>
+							<h5>Wireless Network Management With MXview Wireless</h5>
+							<p>Dynamic topology view shows the status of wireless links and connection changes at a glance<br>
+								Visual, interactive roaming playback function to review the roaming history of clients<br>
+								Detailed device information and performance indicator charts for individual AP and client devices</p>
+						
+						
+						
+						</div>
+						<div id="menu2" class="container tab-pane fade"><br>
+						  <h3>Specifications</h3>
+						  <p>
+							  <table class="table">
+								  
+								  
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">WLAN Interface</td>
+								  </tr>
+								  <tr>
+								  	<td style="white-space: nowrap">WLAN Standards</td>
+								  	<td> 802.11a/b/g/n<br>
+										802.11i Wireless Security</td>
+								  </tr>
+								  <tr>
+								  <td>Modulation Type</td>
+								  <td>DSSS<br>
+									  OFDM<br>
+									  MIMO-OFDM</td>
+								  </tr>
+								  <tr>
+								  	<td>Frequency Band for US (20 MHz operating channels)</td>
+								  	<td>
+									  2.412 to 2.462 GHz（11channels）<br>
+										5.180 to 5.240 GHz（4channels）<br>
+										5.260 to 5.320 GHz（4channels）<br>
+										5.500 to 5.700 GHz（11 channels）<br>
+										5.745 to 5.825 GHz（5 channels）
+									  </td>
+								  </tr>
+								  <tr>
+								  	<td>Frequency Band for EU (20 MHz operating channels)</td>
+								  	<td>2.412 to 2.472 GHz（13channels）<br>
+										5.180 to 5.240 GHz（4channels）<br>
+										5.260 to 5.320 GHz（4channels）<br>
+										5.500 to 5.700 GHz（11 channels）</td>
+								  </tr>
+								  <tr>
+								  	<td>Frequency Band for JP (20 MHz operating channels)</td>
+								  	<td>2.412 to 2.484 GHz（14channels）<br>
+										5.180 to 5.240 GHz（4channels）<br>
+										5.260 to 5.320 GHz（4channels）<br>
+										5.500 to 5.700 GHz（11 channels）</td>
+								  </tr>
+								  <tr>
+								  	<td>Wireless Security</td>
+									  <td>
+										  WEP encryption (64-bit and 128-bit)<br>
+										  WPA/WPA2-Enterprise (IEEE 802.1X/RADIUS, TKIP, AES)<br>
+										  WPA/WPA2-Personal</td>
+								  </tr>
+								  <tr>
+								  	<td>Transmission Rate</td>
+								  	<td>802.11b：1 to 11 Mbps<br>
+										802.11a/g：6 to 54 Mbps<br>
+										802.11n：6.5 to 300 Mbps</td>
+								  </tr>
+								  <tr>
+								  	<td>Transmitter Power for 802.11a</td>
+								  	<td>23±1.5 dBm @ 6 to 24 Mbps<br>
+										21±1.5 dBm @ 36 Mbps<br>
+										20±1.5 dBm @ 48 Mbps<br>
+										18±1.5 dBm @ 54 Mbps</td>
+								  </tr>
+								  <tr>
+								  	<td>Transmitter Power for 802.11n (5 GHz)</td>
+								  	<td>23±1.5 dBm @ MCS0/8 20 MHz<br>
+										18±1.5 dBm @ MCS7/15 20 MHz<br>
+										23±1.5 dBm @ MCS0/8 40 MHz<br>
+										17±1.5 dBm @ MCS7/15 40 MHz</td>
+								  </tr>
+								  <tr>
+								  	<td>Transmitter Power for 802.11b</td>
+								  	<td>26±1.5 dBm @ 1 Mbps<br>
+										26±1.5 dBm @ 2 Mbps<br>
+										26±1.5 dBm @ 5.5 Mbps<br>
+										25±1.5 dBm @ 11 Mbps</td>
+								  </tr>
+								  <tr>
+								  	<td>Transmitter Power for 802.11g</td>
+								  	<td>
+										23±1.5 dBm @ 6 to 24 Mbps<br>
+										21±1.5 dBm @ 36 Mbps<br>
+										19±1.5 dBm @ 48 Mbps<br>
+										18±1.5 dBm @ 54 Mbps</td>
+								  </tr>
+								  <tr>
+								  	<td>Transmitter Power for 802.11n (2.4 GHz)</td>
+								  	<td>23±1.5 dBm @ MCS0/8 20 MHz<br>
+										18±1.5 dBm @ MCS7/15 20 MHz<br>
+										23±1.5 dBm @ MCS0/8 40 MHz<br>
+										17±1.5 dBm @ MCS7/15 40 MHz</td>
+								  </tr>
+								   <tr>
+								  	<td>Transmitter Power</td>
+								  	<td>
+										<table class="table table-moxa">
+											<tr>
+											<td></td>
+											<td>US</td>
+											<td>EU</td>
+											<td>JP</td>
+											</tr>
+											<tr>
+											<td>2.4 GHz</td>
+											<td>26 dBm</td>
+											<td>18 dBm</td>
+											<td>18 dBm</td>
+											</tr>
+											<tr>
+												<td>5 GHz (UNII-1)</td>
+												<td>23 dBm</td>
+												<td>21 dBm</td>
+												<td>21 dBm</td>
+											</tr>
+											<tr>
+												<td>5 GHz (UNII-2)</td>
+												<td>23 dBm</td>
+												<td>21 dBm</td>
+												<td>21 dBm</td>
+											</tr>
+											<tr>
+												<td>5 GHz (UNII-2e)</td>
+												<td>23 dBm</td>
+												<td>23 dBm</td>
+												<td>23 dBm</td>
+											</tr>
+											<tr>
+												<td>5 GHz (UNII-3)</td>
+												<td>23 dBm</td>
+												<td>–</td>
+												<td>–</td>
+											</tr>
+											<tr>
+												<td colspan="4" style="color: red;font-size: 14px;">Note: Based on regional regulations, the maximum transmission power allowed on the UNII bands is restricted in the firmware, as indicated above.</td>
+											</tr>
+										</table>
+									   </td>
+								  </tr>
+								  <tr>
+								  	<td>Receiver Sensitivity for 802.11n (5 GHz; measured at 5.680 GHz)</td>
+								  	<td>Typ.-90 @ 6 Mbps<br>
+										Typ.-88 @ 9 Mbps<br>
+										Typ.-88 @ 12 Mbps<br>
+										Typ.-85 @ 18 Mbps<br>
+										Typ.-81 @ 24 Mbps<br>
+										Typ.-78 @ 36 Mbps<br>
+										Typ.-74 @ 48 Mbps<br>
+										Typ.-72 @ 54 Mbps<br>
+									  <span style="color: red;font-size: 14px;">Due to a limitation in the receiver sensitivity performance for channels 153 and 161, it is recommended to avoid using these channels in your critical applications.</span></td>
+								  </tr>
+								  <tr>
+								  	<td>Receiver Sensitivity for 802.11n (5 GHz; measured at 5.680 GHz)）</td>
+								  	<td>Typ.-69 dBm @ MCS7 20 MHz<br>
+										Typ.-71 dBm @ MCS15 20 MHz<br>
+										Typ.-63 dBm @ MCS7 40 MHz<br>
+										Typ.-68 dBm @ MCS15 40 MHz<br>
+										<span  style="color: red;font-size: 14px;">Due to a limitation in the receiver sensitivity performance for channels 153 and 161, it is recommended to avoid using these channels in your critical applications.</span></td>
+								  </tr>
+								  <tr>
+								  	<td>Receiver Sensitivity for 802.11b (measured at 2.437 GHz)</td>
+								  	<td>Typ.-93 dBm @ 1 Mbps<br>
+										Typ.-93 dBm @ 2 Mbps<br>
+										Typ.-93 dBm @ 5.5 Mbps<br>
+										Typ.-88 dBm @ 11 Mbps</td>
+								  </tr>
+								  <tr>
+									  <td>Receiver Sensitivity for 802.11g (measured at 2.437 GHz)</td>
+									  <td>Typ.-88 dBm @ 6 Mbps<br>
+										  Typ.-86 dBm @ 9 Mbps<br>
+										  Typ.-85 dBm @ 12 Mbps<br>
+										  Typ.-85 dBm @ 18 Mbps<br>
+										  Typ.-85 dBm @ 24 Mbps<br>
+										  Typ.-82 dBm @ 36 Mbps<br>
+										  Typ.-78 dBm @ 48 Mbps<br>
+										  Typ.-74 dBm @ 54 Mbps</td>
+								  </tr>
+								  <tr>
+									  <td>Receiver Sensitivity for 802.11n (2.4 GHz; measured at 2.437 GHz)</td>
+									  <td> <br>
+										  Typ.-70 dBm @ MCS7 20 MHz<br>
+										  Typ.-69 dBm @ MCS15 20 MHz<br>
+										  Typ.-67 dBm @ MCS7 40 MHz<br>
+										  Typ.-67 dBm @ MCS15 40 MHz</td>
+								  </tr>
+								  <tr>
+									  <td>WLAN Operation Mode</td>
+									  <td> Access point, Client, Client-Router, Master, Slave, Sniffer</td>
+								  </tr>
+								  <tr>
+									  <td>Antenna</td>
+									  <td>External, 2/2 dBi, Omni-directional</td>
+								  </tr>
+								  <tr>
+								  	<td>Antenna Connectors</td>
+								  	<td> 2 RP-SMA female</td>
+								  </tr>
+								  <tr><td class="table_subtitle" colspan="2">Ethernet Interface</td></tr>
+								  <tr>
+									  <td>Standards</td>
+									  <td>IEEE 802.3 for 10BaseT<br>
+										  IEEE 802.3u for 100BaseT(X)<br>
+										  IEEE 802.3ab for 1000BaseT(X)<br>
+										  IEEE 802.3af for PoE<br>
+										  IEEE 802.1Q for VLAN Tagging<br>
+										  IEEE 802.1X for authentication<br>
+										  IEEE 802.1D-2004 for Spanning Tree Protocol<br>
+										  IEEE 802.1w for Rapid Spanning Tree Protocol</td>
+								  </tr>
+								  <tr>
+								  	<td>PoE Ports (10/100/1000BaseT(X), RJ45 connector)</td>
+								  	<td>1</td>
+								  </tr>
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">Ethernet Software Features</td>
+								  </tr>
+								  <tr>
+								  	<td>Management</td>
+								  	<td>DHCP Server/Client, DNS, HTTP, IPv4, LLDP, Proxy ARP, SMTP, SNMPv1/v2c/v3, Syslog, TCP/IP, Telnet, UDP, VLAN, Wireless Search Utility, MXview, MXview Wireless, MXconfig</td>
+								  </tr>
+								  <tr>
+								  	<td>Routing</td>
+								  	<td>Port forwarding, Static Route, NAT</td>
+								  </tr>
+								  <tr>
+								  	<td>Redundancy Protocols</td>
+								  	<td>RSTP, STP</td>
+								  </tr>
+								  <tr>
+								  	<td>Security</td>
+								  	<td>HTTPS/SSL、RADIUS、SSH</td>
+								  </tr>
+								  <tr>
+								  	<td>Time Management</td>
+								  	<td>SNTP Client</td>
+								  </tr>
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">Firewall</td>
+								  </tr>
+								  <tr>
+								  	<td>Filter</td>
+								  	<td>ICMP, MAC address, IP protocol, Port-based</td>
+								  </tr>
+								   <tr>
+								  	<td class="table_subtitle" colspan="2">Serial Interface</td>
+								  </tr>
+								  <tr>
+								  	<td>Console Console</td>
+								  	<td>RS-232，8-pin RJ45</td>
+								  </tr>
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">LED Interface</td>
+								  </tr>
+								  <tr>
+								  	<td>LED Indicators</td>
+								  	<td>PWR1, PWR2, PoE, FAULT, STATE, SIGNAL, WLAN, LAN</td>
+								  </tr>
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">Input／Output Interface</td>
+								  </tr>
+								  <tr>
+								  	<td>Digital Inputs</td>
+								  	<td>2<br>
+										Max. input current: 8 mA<br>
+										+13 to +30 V for state 1<br>
+										+3 to -30 V for state 0</td>
+								  </tr>
+								   <tr>
+								  	<td>Alarm Contact Channels</td>
+								  	<td>elay output with current carrying capacity of 1 A @ 24 VDC</td>
+								  </tr>
+								   <tr>
+								  	<td>Buttons</td>
+								  	<td>Reset button</td>
+								  </tr>
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">Physical Characteristics</td>
+								  </tr>
+								  <tr>
+								  	<td>Housing</td>
+								  	<td>Metal</td>
+								  </tr>
+								  <tr>
+								  	<td>IP Rating</td>
+								  	<td>IP30</td>
+								  </tr>
+								  <tr>
+								  	<td>Dimensions</td>
+								  	<td>52.7 x 135 x 105 mm (2.08 x 5.32 x 4.13 in)</td>
+								  </tr>
+								  <tr>
+								  <td>Weight</td>
+								  <td>860 g (1.9 lb)</td>
+								  </tr>
+								  <tr>
+								  	<td>Installation</td>
+								  	<td>DIN-rail mounting, Wall mounting (with optional kit)</td>
+								  </tr>
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">Power Parameters</td>
+								  </tr>
+								  <tr>
+								  	<td>Input Current</td>
+								  	<td>0.56 A @ 12 VDC，0.14 A @ 48 VDC</td>
+								  </tr>
+								  <tr>
+								  	<td>Input Voltage</td>
+								  	<td>12  to 48 VDC</td>
+								  </tr>
+								  <tr>
+								  	<td>Power Connector</td>
+								  	<td>1 removable 10-contact terminal block(s)</td>
+								  </tr>
+								  <tr>
+								  	<td>Power Consumption</td>
+								  	<td> 7.2 W (max.)</td>
+								  </tr>
+								 
+								  <tr>
+								  	<td>Reverse Polarity Protection</td>
+								  	<td>Supported</td>
+								  </tr>
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">Environmental Limits</td>
+								  </tr>
+								  <tr>
+								  	<td>Operating Temperature</td>
+								  	<td>Standard Models：0 to 60°C（32 to 140°F）<br>
+										Wide Temp. Models：-40 to 75°C（-40 to 167°F）</td>
+								  </tr>
+								  <tr>
+								  	<td>Storage Temperature (package included)</td>
+								  	<td>-40  to 85°C（-40  to 185°F）</td>
+								  </tr>
+								  <tr>
+								  	<td>Ambient Relative Humidity</td>
+								  	<td>5 to 95% (non-condensing)</td>
+								  </tr>
+								   <tr>
+								  	<td class="table_subtitle" colspan="2">Standards and Certifications</td>
+								  </tr>
+								   <tr>
+								  	<td>EMC</td>
+								  	<td>EN 55032/24</td>
+								  </tr>
+								  <tr>
+								  	<td>EMI</td>
+								  	<td> CISPR 32，FCC Part 15B Class B</td>
+								  </tr>
+								  <tr>
+								  	<td>EMS</td>
+								  	<td>IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV<br>
+										IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m<br>
+										IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV<br>
+										IEC 61000-4-5 Surge: Power: 2 kV; Signal: 1 kV<br>
+										IEC 61000-4-6 CS: 3 V<br>
+										IEC 61000-4-8 PFMF</td>
+								  </tr>
+								  <tr>
+								  	<td>Hazardous Locations</td>
+								  	<td>ATEX, Class I Division 2, IECEx</td>
+								  </tr>
+								  <tr>
+								  	<td>Radio</td>
+								  	<td>EN 300 328、EN 301 489-1/17、EN 301 893、FCC ID SLE-WAPN008、ANATEL、MIC、NCC、RCM、SRRC、WPC、KC、RCM</td>
+								  </tr>
+								  <tr>
+								  	<td>Safety</td>
+								  	<td>EN 60950-1，UL 60950-1</td>
+								  </tr>
+								  <tr>
+								  	<td>Vibration</td>
+								  	<td>IEC 60068-2-6</td>
+								  </tr>
+								  
+								  
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">MTBF</td>
+								  </tr>
+								   <tr>
+								  	<td>Time</td>
+								  	<td>749,476 hrs</td>
+								  </tr>
+								 
+								   <tr>
+								  	<td>Standards </td>
+								  	<td>Telcordia SR332</td>
+								  </tr>
+								   
+								  <tr>
+								  	<td class="table_subtitle" colspan="2">Warranty</td>
+								  </tr>
+								  <tr>
+								  	<td>Warranty Period</td>
+								  	<td>5years</td>
+								  </tr>
+								 
+							</table>
+							</p>
+						</div>
+					</div>
+					  </div>
+					</div>
+					
+
+				</div>
+		
+<footer class="text-center bgc_darkblue text-white textp14">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 pt-3 ">
+        <div> <img src="../images/ypro-white.png" width="250" height="50" alt=""/>
+				  <a href="#"><img src="../images/fb_icon.svg" width="35" height="35" alt=""></a></div>
+        <div class="d-inline-block ">ADD：
+         No. 158, Wucuo Rd., Qingshui Dist., Taichung City 436, Taiwan (R.O.C.)&nbsp;&nbsp; </div>
+        <div class="d-inline-block"> &nbsp;TEL : +886-4-2620-1610&nbsp;&nbsp;</div>
+        <div class="d-inline-block">&nbsp;FAX : +886-4-2620-1611&nbsp;</div>
+        <div class="d-inline-block">&nbsp;Email : AmyHsu@ypro.com&nbsp;</div>
+        <br>
+        <hr class="bg-white">
+        <p>COPYRIGHT (C) 2020 YPRO英寶科技. ALL RIGHTS RESERVED &emsp;<a class="isms" href="../isms_en.html"><u>Information Security Policy Statement</u></a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.4.1.min.js"></script> 
+		<!-- Include all compiled plugins (below), or include individual files as needed --> 
+		<script type="text/javascript" src="../js/slick.js"></script>
+	<script src="../js/popper.min.js"></script> 
+	<script src="../js/bootstrap-4.4.1.js"></script>
+	<script src="../js/aos.js"></script>
+	<script src="../js/index.js"></script>
+
+	
+	</body>
+</html>

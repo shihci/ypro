@@ -17,7 +17,8 @@
 		}
 	</style>
 	<body>
-	<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a href="w00_home_en.html"  class="navbar-brand" > <img src="images/ypro-logo.png" width="250px" height="52px" alt=""/> </a>
+	<div class="nav_shadow">
+			<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a href="w00_home_en.html"  class="navbar-brand" > <img src="images/ypro-logo.png" width="250px" height="52px" alt=""/> </a>
 		  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 		  <div class="collapse navbar-collapse " id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
@@ -27,10 +28,11 @@
 			  <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="dropdown-toggle">Product</span></a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="w03_1_FMCSP_en.html">Facility Monitor &amp; Control System Project</a> 
-					<a class="dropdown-item" href="w03_2_SM_en.html">Security Monitoring</a>
+					<a class="dropdown-item" href="w03_2_SM_en.html">All-in-one card</a>
 					<a class="dropdown-item" href="w03_3_IP_en.html">Intelligent Project</a>
 					<a class="dropdown-item" href="w03_4_PH_en.html">Public Health</a> </div>
 			  </li>
+			  <li class="nav-item"> <a class="nav-link" href="w06_dealer_en.html">Dealer</a></li>
 			  <li class="nav-item"> <a class="nav-link" href="w04_client_en.html">Partners</a></li>
 			  <li class="nav-item"> <a class="nav-link " href="w05_recruit_en.html">Recruit</a></li>
 			  <li class="nav-item"> <a class="nav-link " href="http://ems.ypro.com.tw/YPro/login.aspx">Staff</a> </li>
@@ -42,7 +44,7 @@
 			  <li class="language"><a href="w00_home_cn.html">简</a></li>
 			  </ul>
 		  </div>
-		</nav>
+		</nav></div>
 		<div class="fixed-btn">
 		  <div id="thediv" class="px-3 pt-1 pb-2 inforWindows" style="display:none">
 			<button type="button" id="close" class="del"  data-dismiss="informWindows">×</button>
@@ -67,7 +69,7 @@
 		  </div>
 		</div>
 		<!--carousel pict start-->
-		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="z-index: 1">
 		  <ol class="carousel-indicators">
 			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
@@ -106,6 +108,31 @@
 		<!--carousel pict end-->
 
 		<section>
+			
+			<div class="bgc_darkblue">
+			<div class="container py-5">
+				<div class="row">
+					<div class="col-12 col-lg-6 order-2 order-lg-2" data-aos="fade-left">
+						<img src="images/01-news.jpg" width="100%" alt="">
+					</div>
+					<div class="col-12 col-lg-6 order-1 order-lg-2 text-white" data-aos="fade-down" data-aos-delay="300">
+						<div class="title_zh text-white pb-1">NEWS</div>
+						<div id="news"  class="news_scroll mb-4 mb-lg-0">
+						<div class="news p-1" v-for="item in news_item_en">
+							
+							<div class="news-title-date">
+								<div class="news-title"> {{item.title}}</div>
+								<div class="news-date">{{item.date}}</div>
+								</div>
+								<div class="news-content">{{item.content}}</div>
+							
+						</div>
+					
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
 		  <div class="container py-5 my-lg-3">
 			<div class="row">
 			  <div class="col-12 col-lg-6 ">
@@ -113,7 +140,7 @@
 				  <div class="bodyTitle">
 					  Integrity, Innovation, Globalization.</div>
 					
-				  <div class="textp mt-3"> &emsp;&emsp;<span class="c_darkblue font-weight-bold">YPRO(Ying Pao Technology INC.)</span> was founded in 1999. YPRO dedicated to planning and developing the computer network, which has professional technique,experiences.The scope of service includes <span class="c_darkblue font-weight-bold">Facility Monitor and Control Project, Security Monitoring, Intelligent Project and Public Health.</span></div>
+				  <div class="textp mt-3"> &emsp;&emsp;<span class="c_darkblue font-weight-bold">YPRO(Ying Pao Technology INC.)</span> was founded in 1999. YPRO dedicated to planning and developing the computer network, which has professional technique,experiences.The scope of service includes <span class="c_darkblue font-weight-bold">Facility Monitor and Control Project, All-in-one card, Intelligent Project and Public Health.</span></div>
 					 <div class="textp mt-1"> 
 					&emsp;&emsp;With the rapid of technology, YPRO act a spirit of <span class="c_darkblue font-weight-bold">Innovaction</span> and <span class="c_darkblue font-weight-bold">integrity</span> with client service
 						 provide.
@@ -169,49 +196,51 @@
 		  </div>
 		  <div class="row">
 			<div class="col-12 col-sm-6 col-lg-3 px-5 px-ssm-4 px-sm-3 px-md-2 px-lg-3 mb-5">
-			  <div class="pd_card en" data-aos="fade-up" onClick="location.href='03.1-FMCSP.html'">
+			  <div class="pd_card en" data-aos="fade-up" onClick="location.href='w03_1_FMCSP_en.html'">
 				<div class="topline"> <img class="bd-img" src="images/00-a2.jpg" width="100%" alt=""/> </div>
 				<h5 class="card_title pt-3 text-center"> Facility Monitor &amp; Control System Project </h5>
 				<div class="ml-3 line"> </div>
 				<div class="card_p en ml-3"> Facility Control System<br>
-					Facility Management System<br>
-					Cameras Cabinet<br>
-					Real Estate Escrow System<br>
-					HR System<br>
-					Message System </div>
+					Factory management platform<br>
+					Alarm management<br>
+					Quality management<br>
+					iPad inspection &amp; audit </div>
 			  </div>
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 px-5 px-ssm-4 px-sm-3 px-md-2 px-lg-3 mb-5 ">
-			  <div class="pd_card en" data-aos="fade-up" data-aos-delay="100" onClick="location.href='03.2-SM.html'">
+			  <div class="pd_card en" data-aos="fade-up" data-aos-delay="100" onClick="location.href='w03_2_SM_en.html'">
 				<div class="topline"> <img class="bd-img" src="images/00-a1.jpg" width="100%" alt=""/> </div>
-				<h5 class="card_title pt-3 text-center"> Security  Monitoring </h5>
+				<h5 class="card_title pt-3 text-center"> All-in-one card </h5>
 				<div class="ml-3 line"> </div>
 				<div class="card_p en ml-3">
-					Access Management System<br>
-					i-Pad Site Inspection System</div>
+					All-in-one card solution<br>
+					Security/Monitoring System<br>
+					PRMS system<br>
+					Data analysis and mining</div>
 			  </div>
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 px-5 px-ssm-4 px-sm-3 px-md-2 px-lg-3 mb-5">
-			  <div class="pd_card en" data-aos="fade-up" data-aos-delay="200" onClick="location.href='03.3-IP.html'">
+			  <div class="pd_card en" data-aos="fade-up" data-aos-delay="200" onClick="location.href='w03_3_IP_en.html'">
 				<div class="topline"> <img class="bd-img" src="images/00-a4.jpg" width="100%" alt=""/> </div>
 				<h5 class="card_title pt-3 text-center"> Intelligent Project </h5>
 				<div class="ml-3 line"> </div>
-				<div class="card_p en ml-3"> Autimatic Feeding System<br>
+				<div class="card_p en ml-3"> 
+					Autimatic Feeding System<br>
 					Automatic Storage System<br>
-					Automatic Material Management System </div>
+					Automatic Material Management System<br>
+				  Material Foolproof System</div>
 			</div>
 				</div>
 			<div class="col-12 col-sm-6 col-lg-3 px-5 px-ssm-4 px-sm-3 px-md-2 px-lg-3 mb-3">
-			  <div class="pd_card en" data-aos="fade-up" data-aos-delay="300" onClick="location.href='03.4-PH.html'">
+			  <div class="pd_card en" data-aos="fade-up" data-aos-delay="300" onClick="location.href='w03_4_PH_en.html'">
 				<div class="topline"> <img class="bd-img" src="images/00-a3.jpg" width="100%" alt=""/> </div>
 				<h5 class="card_title pt-3 text-center"> Public Health </h5>
 				<div class="ml-3 line"> </div>
 				<div class="card_p en ml-3"> Cancer Management System<br>
-					Diabetes Care System<br>
-					Emergency System<br>
+					Cancer Management System<br>
 					Inpatient System<br>
-					Compound Screening System<br>
-					Child Care System </div>
+					Diabetes Care System<br>
+					Emergency System </div>
 			  </div>
 			</div>
 		  </div>
@@ -220,7 +249,8 @@
 		  <div class="container-fluid">
 			<div class="row">
 			  <div class="col-12 pt-3 ">
-				<div> <img src="images/ypro-white.png" width="250" height="50" alt=""/></div>
+				<div> <img src="images/ypro-white.png" width="250" height="50" alt=""/>
+				  <a href="#"><img src="images/fb_icon.svg" width="35" height="35" alt=""></a></div>
 				<div class="d-inline-block ">ADD：
 				  No. 158, Wucuo Rd., Qingshui Dist., Taichung City 436, Taiwan (R.O.C.)&nbsp;&nbsp; </div>
 				<div class="d-inline-block"> &nbsp;TEL : +886-4-2620-1610&nbsp;&nbsp;</div>
@@ -240,5 +270,7 @@
 <script src="js/bootstrap-4.4.1.js"></script> 
 <script src="js/aos.js"></script> 
 <script src="js/index.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/data.js"></script>
 </body>
 </html>

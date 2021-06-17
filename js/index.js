@@ -40,7 +40,7 @@ $(window).scroll(function(event) {
     $(".fixed-btn").removeClass("show");
   }
 });
-/*慢慢划動至上方*/
+/*慢慢划動 to 上方*/
 $('.fixed-btn-group a').click(function () {
   $('html, body').animate({
     scrollTop: $($(this).attr('href')).offset().top
@@ -63,11 +63,38 @@ AOS.init(
   }
 );
 
+//w02-target
+$(document).ready(function(){
+	$("#os_type3").click(function(){
+		$("#vline3").toggleClass("d-none");
+		$("#os_type3_list1").toggleClass("d-block");
+		$("#os_tl3-1").toggleClass("d-block");
+		$(this).find('.toggle_target img').toggle();
+	});
+	$("#os_type4").click(function(){
+		$("#vline4").toggleClass("d-none");
+		$("#os_type4_list1").toggleClass("d-block");
+		$("#os_type4_list2").toggleClass("d-block");
+		$(this).find('.toggle_target img').toggle();
+	});
+	$("#os_type5").click(function(){
+		$("#vline5").toggleClass("d-none");
+		$("#os_type5_list1").toggleClass("d-block");
+		$(this).find('.toggle_target img').toggle();
+	});
+	$("#os_type6").click(function(){
+		$("#vline6").toggleClass("d-none");
+		$("#os_type6_list1").toggleClass("d-block");
+		$("#os_tl6-1").toggleClass("d-block");
+		$("#os_tl6-2").toggleClass("d-block");
+		$(this).find('.toggle_target img').toggle();
+	});
 
+});
 //w06-dealer-pd
 $(function(){
 		  	$(".product_img_sm img").click(function(){
-				var N =$(this).attr("src").substring(0);//String.substring( Start , End ),第二個參數是結尾字符，自動擷取至該字符的前一個字符，如果沒有填寫，一樣擷取至最後一個字符。
+				var N =$(this).attr("src").substring(0);//String.substring( Start , End ),第二個參數是結尾字符，自動擷取 to 該字符的前一個字符，如果沒有填寫，一樣擷取 to 最後一個字符。
 				$("#bigimg").attr("src",N);
 		});
 			$("#bigimg").click(function(){

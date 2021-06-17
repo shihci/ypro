@@ -5,12 +5,14 @@ var news = {
 		{
 			title: "二十年里程碑資訊科技整合服務",
             date: "2021/03/16",
-			content: "英寶科技創立二十余年，擁有專業的技術、豐富的經驗,因應企業的需求，量身定做最適合的解決方案"
+			content: "英寶科技創立二十余年，擁有專業的技術、豐富的經驗,因應企業的需求，量身定做最適合的解決方案",
+			img:"onclick='javascript:location.href='http://www.wibibi.com''"
 		},
 		{
 			title: "自動化控制",
             date: "2021/03/16",
-			content: "實踐自動化控制，穩定創新，鉅細靡遺。減少成本，效益最大化。"
+			content: "實踐自動化控制，穩定創新，鉅細靡遺。減少成本，效益最大化。",
+			img:"onclick='javascript:location.href='http://www.google.com''"
 		},
 		{
 			title: "企業廠務",
@@ -26,6 +28,64 @@ var news = {
 			title: "【公告】防疫需求須知",
             date: "2021/03/16",
 			content: "因應新冠肺炎(COVID-19)疫情問題，凡進公司之人員、維修人員、訪客等皆需量體溫，量測體溫未超過37.5度者，方可進入公司。"
+		}
+		
+		
+	],
+	news_item_cn:[
+		{
+			title: "二十年里程碑资讯科技整合服务",
+            date: "2021/03/16",
+			content: "英宝科技创立二十余年，拥有专业的技术、丰富的经验,因应企业的需求，量身定做最适合的解决方案"
+		},
+		{
+			title: "自动化控制",
+            date: "2021/03/16",
+			content: "实践自动化控制，稳定创新，巨细靡遗。减少成本，效益最大化。"
+		},
+		{
+			title: "企业厂务",
+            date: "2021/03/16",
+			content: "提供整合式监控管理平台，提高产业运作效能。应用统计分析技术，对厂务系统的数据进行搜集与监控，协助使用者管理与整合，降低异常所造成的损失。"
+		},
+		{
+			title: "【征才招募】成为英宝精英",
+            date: "2021/03/16",
+			content: "本公司目前扩大职缺征才,欢迎拥有实力的你加入英宝团队, 有意愿者欢迎上1111人力银行查看最新职缺！"
+		},
+		{
+			title: "【公告】防疫需求须知",
+            date: "2021/03/16",
+			content: "因应新冠肺炎(COVID-19)疫情问题，凡进公司之人员、维修人员、访客等皆需量体温，量测体温未超过37.5度者，方可进入公司。"
+		}
+		
+		
+	],
+	news_item_en:[
+		{
+			title: "Technology Integration Service",
+            date: "2021/03/16",
+			content: "YPRO was founded in 1999, which has professional technique,experiences.The company customize the most suitable solution with client's need."
+		},
+		{
+			title: "Intelligent Project",
+            date: "2021/03/16",
+			content: "Implement Intelligent Project.Reduce costs and maximize benefits."
+		},
+		{
+			title: "Facility Monitor Control System Project",
+            date: "2021/03/16",
+			content: "It provides an integrated monitoring management terrace to improve the industrial efficiency.Use statistical analysis to collect and monitor control system data.。"
+		},
+		{
+			title: "【job Posting】Join Us",
+            date: "2021/03/16",
+			content: "YPRO, is searching for global talents to join us. We invite outstanding talents to apply for the position."
+		},
+		{
+			title: "【Posting】Pandemic-prevention policies",
+            date: "2021/03/16",
+			content: "In response to the Covid19 policy,everyone must wears a mask and checks your temperature before enter company."
 		}
 		
 		
@@ -234,7 +294,7 @@ var partners_tw = {
 				modal:"clients01",
                 title: "TSMC",
 				title_en:"Taiwan Semiconductor Manufacturing Co., Ltd.",
-                abstract: "TSMC pioneered the pure-play foundry business model, and has been the world’s largest dedicated semiconductor foundry ever since."
+                abstract: "TSMC pioneered the pure-play foundry business model, and has been the world's largest dedicated semiconductor foundry ever since."
             },
             {
 				modal:"clients02",
@@ -276,7 +336,7 @@ var partners_tw = {
 				modal:"clients08",
                 title: "Micron",
 				title_en:"Micron Technology, Inc.",
-                abstract: "As the leader in innovative memory solutions, Micron is helping the world make sense of data by delivering technology that is transforming how the world uses information to enrich life for all. Micron is the only company manufacturing today’s major memory and storage technologies: DRAM, NAND, NOR and 3D XPoint™ memory."
+                abstract: "As the leader in innovative memory solutions, Micron is helping the world make sense of data by delivering technology that is transforming how the world uses information to enrich life for all. Micron is the only company manufacturing today's major memory and storage technologies: DRAM, NAND, NOR and 3D XPoint™ memory."
             },
 				{
 				modal:"clients09",
@@ -693,7 +753,7 @@ var partners_tw = {
 				modal: "partners03",
 				title: "Lumax",
 				title_en: "Lumax International Corp., Ltd.",
-				abstract: "	Lumax’s strengths lie in its being the only professional firm in Taiwan that has extended its reach across two fields: process control and electronics/telecommunication."
+				abstract: "	Lumax's strengths lie in its being the only professional firm in Taiwan that has extended its reach across two fields: process control and electronics/telecommunication."
 			},
 			
 			{
@@ -712,7 +772,7 @@ var partners_tw = {
 				modal: "partners06",
 				title: "Yankey",
 				title_en: "Yankey Engineering Co.,LTD.",
-				abstract: "Established in 1980. As Taiwan’s economy boosted and upgraded by time, in 1985 Yankey officially expanded it's business scope to Electronics Industry field, then to Panel, Solar Power, Semiconductor, Photoelectric, Biotech Industry fields, etc."
+				abstract: "Established in 1980. As Taiwan's economy boosted and upgraded by time, in 1985 Yankey officially expanded it's business scope to Electronics Industry field, then to Panel, Solar Power, Semiconductor, Photoelectric, Biotech Industry fields, etc."
 			},
 			{
 				modal: "partners07",
@@ -754,7 +814,7 @@ var partners_tw = {
 				modal: "partners13",
 				title: "REGAL SCAN TECH",
 				title_en: "",
-				abstract: "REGAL SCAN TECH, which was established in 1994, providing AIDC (Automatic Identification and Data Collection) system integration services for various industries in Taiwan/Mainland.Its products include barcode scanners, barcode label printers, Android PDAs, RFID reading devices, access control systems, etc."
+				abstract: "REGAL SCAN TECH, which was established in 1994, providing AIDC (Automatic Identification and Data Collection) system integration services for various industries in Taiwan/Mainland. Its products include barcode scanners, barcode label printers, Android PDAs, RFID reading devices, access control systems, etc."
 			},
 			{
 				modal: "partners14",
@@ -773,7 +833,7 @@ var partners_tw = {
 				modal: "partners16",
 				title: "研华科技",
 				title_en: "ADVANTECH（Advantech Co., Ltd.）",
-				abstract: "Advantech’s corporate vision is to enable an intelligent planet. The company is a global leader in the fields of IoT intelligent systems and embedded platforms.。"
+				abstract: "Advantech's corporate vision is to enable an intelligent planet. The company is a global leader in the fields of IoT intelligent systems and embedded platforms.。"
 			},
 			{
 				modal: "partners17",
@@ -785,7 +845,7 @@ var partners_tw = {
 				modal: "partners18",
 				title: "Genetec",
 				title_en: "",
-				abstract: "While Genetec’s headquarters are in Montreal, Quebec, Canada, Its office locations span the globe: Mexico City, Sao Paolo, Dusseldorf, Paris, Dubai, Tokyo, and Singapore."
+				abstract: "While Genetec's headquarters are in Montreal, Quebec, Canada, Its office locations span the globe: Mexico City, Sao Paolo, Dusseldorf, Paris, Dubai, Tokyo, and Singapore."
 			},
 			{
 				modal: "partners19",
@@ -815,7 +875,7 @@ var partners_tw = {
 				modal: "partners23",
 				title: "SOYAL",
 				title_en: "SOYAL",
-				abstract: "Established in 1993, SOYAL Technology Co., Ltd has been the most renowned access control manufacture in Taiwan which was first commissioned to design products satisfying our clients’ demands and then became favorably appreciated by the market for its dependability and applicability."
+				abstract: "Established in 1993, SOYAL Technology Co., Ltd has been the most renowned access control manufacture in Taiwan which was first commissioned to design products satisfying our clients' demands and then became favorably appreciated by the market for its dependability and applicability."
 			},
 			
 			{
@@ -865,48 +925,216 @@ var partners_tw = {
 var client_factory1 = {
 	client_tw:[
 		{
-			area: "工程地區",
-            name: "服務產品(案名)",
+			area: "年份",
+            name: "建置合約",
 		},
 		{
-			area: "桃園- TSMC BP03",
-            name: "Stage-5 Barcode system package",
+			area: "2020-(F16)",
+            name: "FOR TOOL ALARM 機台自動發簡訊通知SPONSOR 與主管",
 		},
 		{
-			area: "台中- TSMC F15P6B",
-            name: "廠務季刊網站",
+			area: "2020-(F16)",
+            name: "IE_工程_ARMS系統",
 		},
 		{
-			area: "台中- TSMC F15P7",
-            name: "RFID Barcode System Package WBS",
+			area: "2020-(F10)",
+            name: "Tool sign off E化",
 		},
 		{
-			area: "台中- TSMC F15P7",
-            name: "Barcode 新網路架構-Scope 1",
+			area: "2019-(F10)",
+            name: "C_*_N_ISEP網站維護和KPI子系統開發工程",
 		},
 		{
-			area: "台南- TSMC F14P1",
-            name: "服務產品(案名)",
+			area: "2019-(F16)",
+            name: "F16P1 ACS ROOM 位移測試安裝功能需求",
 		},
 		{
-			area: "桃園- TSMC BP03",
-            name: "Stage-5 Barcode system package",
+			area: "2019-(F16)",
+            name: "廠務中央庫房Barcode系統",
 		},
 		{
-			area: "台中- TSMC F15P6B",
-            name: "廠務季刊網站",
+			area: "2019-(F16)",
+            name: "通關門工程+CCTV",
 		},
 		{
-			area: "台中- TSMC F15P7",
-            name: "RFID Barcode System Package WBS",
+			area: "2019-(F15P12)",
+            name: "空氣品質偵測",
 		},
 		{
-			area: "台中- TSMC F15P7",
-            name: "Barcode 新網路架構-Scope 1",
+			area: "2018-(F16)",
+            name: "一般_劇毒易制爆化學品管理平台",
 		},
 		{
-			area: "台南- TSMC F14P1",
-            name: "服務產品(案名)",
+			area: "2018-(F14P3)",
+            name: "人員耗材供應系統",
+		},
+		{
+			area: "2018-(F12AB)",
+            name: "防闖安全強化需求(新竹廠)",
+		},
+		{
+			area: "2017-(F12P4)",
+            name: "超速測速器工程",
+		},
+		{
+			area: "2012",
+            name: "門禁管理系統改建案(EMS)",
+		},
+		{
+			area: "2009",
+            name: "工地門禁系統",
+		},
+		{
+			area: "2007",
+            name: "氣瓶櫃更換系統",
+		},
+		{
+			area: "2006",
+            name: "水資源平台系統建置案",
+		}
+		
+		
+	],
+	client_cn:[
+		{
+			area: "时间/廠區",
+            name: "建置合约",
+		},
+		{
+			area: "2020-(F16)",
+            name: "FOR TOOL ALARM 机台自动发简讯通知SPONSOR 与主管",
+		},
+		{
+			area: "2020-(F16)",
+            name: "IE_工程_ARMS系统",
+		},
+		{
+			area: "2020-(F10)",
+            name: "Tool sign off E化",
+		},
+		{
+			area: "2019-(F10)",
+            name: "C_*_N_ISEP网站维护和KPI子系统开发工程",
+		},
+		{
+			area: "2019-(F16)",
+            name: "F16P1 ACS ROOM 位移测试安装功能需求",
+		},
+		{
+			area: "2019-(F16)",
+            name: "厂务中央库房Barcode系统",
+		},
+		{
+			area: "2019-(F16)",
+            name: "通关门工程+CCTV",
+		},
+		{
+			area: "2019-(F15P12)",
+            name: "空气品质侦测",
+		},
+		{
+			area: "2018-(F16)",
+            name: "F16P1_ISEP_一般_剧毒易制爆化学品管理平台",
+		},
+		{
+			area: "2018",
+            name: "人员耗材供应系统",
+		},
+		{
+			area: "2018",
+            name: "防闯安全强化需求(新竹厂)",
+		},
+		{
+			area: "2017",
+            name: "超速测速器工程",
+		},
+		{
+			area: "2012",
+            name: "门禁管理系统改建案(EMS)",
+		},
+		{
+			area: "2009",
+            name: "工地门禁系统",
+		},
+		{
+			area: "2007",
+            name: "气瓶柜更换系统",
+		},
+		{
+			area: "2006",
+            name: "水资源平台系统建置案",
+		}
+		
+		
+	],
+	client_en:[
+		{
+			area: "Years",
+            name: "Project",
+		},
+		{
+			area: "2020-(F16)",
+            name: "For the tool alarm, it will automatically send SMS to notify the sponsor and supervisor",
+		},
+		{
+			area: "2020-(F16)",
+            name: "IE_Engineering_ARMS System",
+		},
+		{
+			area: "2020-(F10)",
+            name: "E-Tool sign off",
+		},
+		{
+			area: "2019-(F10)",
+            name: "C_*_N_ISEP Website maintenance and KPI subsystem development project",
+		},
+		{
+			area: "2019-(F16)",
+            name: "F16P1 ACS ROOM displacement test installation function requirements",
+		},
+		{
+			area: "2019-(F16)",
+            name: "Factory Central Warehouse Barcode System",
+		},
+		{
+			area: "2019-(F16)",
+            name: "Speed Gate Engineering +CCTV",
+		},
+		{
+			area: "2019-(F15P12)",
+            name: "Air Quality Detection",
+		},
+		{
+			area: "2018-(F16)",
+            name: "F16P1_ISEP_General_Highly toxic and explosive chemicals management platform",
+		},
+		{
+			area: "2018",
+            name: "Personnel Supplies Supply System",
+		},
+		{
+			area: "2018",
+            name: "Enhanced Anti-vandal Safety Requirements (Hsinchu Plant)",
+		},
+		{
+			area: "2017",
+            name: "Speed-measuring Engineering",
+		},
+		{
+			area: "2012",
+            name: "Acess Control System(EMS)",
+		},
+		{
+			area: "2009",
+            name: "Site access control system",
+		},
+		{
+			area: "2007",
+            name: "Cylinder Cabinet Replacement System",
+		},
+		{
+			area: "2006",
+            name: "Water resources platform system construction project",
 		}
 		
 		
@@ -919,136 +1147,348 @@ var client_factory1 = {
 var client_factory2 = {
 	client_tw:[
 		{
-			area: "工程地區",
-            name: "服務產品(案名)",
+			area: "年份/客戶",
+            name: "建置合約",
 		},
 		{
-			area: "台中- 康寧",
-            name: "TC602_T17 -128 TCL602 Facility Mods EPC",
+			area: "2015-(三廠)",
+            name: "SPC 資料整合(DVI)平台",
 		},
 		{
-			area: "台中- 美光",
-            name: "TMC F1 project",
+			area: "2014-(二廠)",
+            name: "SPC 資料整合(DVI)平台",
 		},
 		{
-			area: "台中-  AUO L8B",
-            name: "GED2 Electrical_RFQ_VFD AB753",
+			area: "2010-(二廠)",
+            name: "Alarm Collection and Auto Callout 平台系統",
+		}	
+	],
+	client_cn:[
+		{
+			area: "时间/客户",
+            name: "建置合约",
 		},
 		{
-			area: "台中-  AUO L8B",
-            name: "VFD AB753",
+			area: "2015-(三厂)",
+            name: "SPC 资料整合(DVI)平台",
 		},
 		{
-			area: "台中- 美光",
-            name: "TMC Phase I - F01 package",
-		}
-		
-		
+			area: "2014-(二厂)",
+            name: "SPC 资料整合(DVI)平台",
+		},
+		{
+			area: "2010-(二厂)",
+            name: "Alarm Collection and Auto Callout 平台系统",
+		}	
+	],
+	client_en:[
+		{
+			area: "Years/Client",
+            name: "Project",
+		},
+		{
+			area: "2015-(Fab3)",
+            name: "SPC Data Integration (DVI) Platform",
+		},
+		{
+			area: "2014-(Fab2)",
+            name: "SPC Data Integration (DVI) Platform",
+		},
+		{
+			area: "2010-(Fab2)",
+            name: "Alarm Collection and Auto Callout Platform System",
+		}	
 	],
 };
-	var vm_tsmc = new Vue({
+	var vm_factory2 = new Vue({
 		el: '#client-fac2',
 		data: client_factory2
         });
 var client_factory3 = {
 	client_tw:[
 		{
-			area: "工程地區",
-            name: "服務產品(案名)",
+			area: "年份/客戶",
+            name: "建置合約",
 		},
 		{
-			area: "台中- 康寧",
-            name: "TC602_T17 -128 TCL602 Facility Mods EPC",
+			area: "2006-彰化縣衛生局",
+            name: "癌症防治及結核病防治績效管理資訊系統建置案",
 		},
 		{
-			area: "台中- 美光",
-            name: "TMC F1 project",
-		},
-		{
-			area: "台中-  AUO L8B",
-            name: "GED2 Electrical_RFQ_VFD AB753",
-		},
-		{
-			area: "台中-  AUO L8B",
-            name: "VFD AB753",
-		},
-		{
-			area: "台中- 美光",
-            name: "TMC Phase I - F01 package",
+			area: "2004-基隆市衛生局",
+            name: "X光巡檢資資訊管理",
 		}
 		
+	],
+	client_cn:[
+		{
+			area: "时间/客户",
+            name: "建置合约",
+		},
+		{
+			area: "2006-彰化县卫生局",
+            name: "癌症防治及结核病防治绩效管理资讯系统建置案",
+		},
+		{
+			area: "2004-基隆市卫生局",
+            name: "X光巡检资资讯管理",
+		}
+		
+	],
+	client_en:[
+		{
+			area: "Years/Client",
+            name: "Project",
+		},
+		{
+			area: "2006-Changhua County Health Bureau",
+            name: "Cancer Prevention and Tuberculosis Prevention Performance Management Information System Construction Project",
+		},
+		{
+			area: "2004-Keelung City Health Bureau",
+            name: "X-ray inspection information management",
+		}
 		
 	],
 };
-	var vm_tsmc = new Vue({
+	var vm_factory3 = new Vue({
 		el: '#client-fac3',
 		data: client_factory3
         });
 var client_factory4 = {
 	client_tw:[
 		{
-			area: "工程地區",
-            name: "服務產品(案名)",
+			area: "年份/客戶",
+            name: "建置合約",
 		},
 		{
-			area: "台中- 康寧",
-            name: "TC602_T17 -128 TCL602 Facility Mods EPC",
+			area: "2020-鵬鼎控股-印度",
+            name: "靜電測試儀",
 		},
 		{
-			area: "台中- 美光",
-            name: "TMC F1 project",
+			area: "2020-鵬鼎控股-秦皇島",
+            name: "靜電測試儀",
 		},
 		{
-			area: "台中-  AUO L8B",
-            name: "GED2 Electrical_RFQ_VFD AB753",
+			area: "2020-鵬鼎控股-淮安",
+            name: "靜電測試儀",
 		},
 		{
-			area: "台中-  AUO L8B",
-            name: "VFD AB753",
+			area: "2020-龍勝濤",
+            name: "電視看版系統建置(硬件)\n電視看版系統建置(軟件)",
 		},
 		{
-			area: "台中- 美光",
-            name: "TMC Phase I - F01 package",
+			area: "2018-京隆科技",
+            name: "宿舍 G棟1～8樓門禁設備建置\n宿舍 G棟1～8樓門禁建置施工\n11個門禁新增工程\n一組ESD三輥閘機（含安裝調試）工程\n通關機一組（含安裝調試）工程\n新增5門禁工程For KLT二廠海思擴充\nCOG物料間新增1間門禁（閘道)\n新增 1個門禁工程For MTK半成品倉新 擴隔間",
+		},
+		{
+			area: "2018-采鈺科技",
+            name: "空污及水污之簡訊系統與發報系統(ETS)",
+		},
+		{
+			area: "2018-鵬鼎控股",
+            name: "門禁&消費系統改建",
+		},
+		{
+			area: "2018-臺灣觀光學院",
+            name: "選課管理系統",
+		},
+		{
+			area: "2017-麗明營造股份有限公司",
+            name: "土方車GPS監測系統",
+		},
+		{
+			area: "2016-遠巧",
+            name: "QC系統",
+		},
+		{
+			area: "2018-臺灣篩檢學會",
+            name: "網站改版系統",
+		},
+		{
+			area: "2011-奇美電子(現改為群創)",
+            name: "人力資源部人資入口網「eHR」",
+		},
+		{
+			area: "2009-泛太建經",
+            name: "履約保證系統",
+		},
+		{
+			area: "2004-交通部運研所港灣研究中心",
+            name: "港灣環境資訊網系統",
 		}
-		
+	],
+	client_cn:[
+		{
+			area: "时间/客户",
+            name: "建置合约",
+		},
+		{
+			area: "2020-鹏鼎控股-印度",
+            name: "静电测试仪",
+		},
+		{
+			area: "2020-鹏鼎控股-秦皇岛",
+            name: "静电测试仪",
+		},
+		{
+			area: "2020-鹏鼎控股-淮安",
+            name: "静电测试仪",
+		},
+		{
+			area: "2020-龙胜涛",
+            name: "电视看版系统建置(硬件)\n电视看版系统建置(软件)",
+		},
+		{
+			area: "2018-京隆科技",
+            name: "宿舍G栋1～8楼门禁设备建置\n宿舍G栋1～8楼门禁建置施工\n11个门禁新增工程\n一组ESD三辊闸机（含安装调试）工程\ n通关机一组（含安装调试）工程\n新增5门禁工程For KLT二厂海思扩充\nCOG物料间新增1间门禁（闸道)\n新增1个门禁工程For MTK半成品仓新扩隔间",
+		},
+		{
+			area: "2018-采钰科技",
+            name: "空污及水污之简讯系统与发报系统(ETS)",
+		},
+		{
+			area: "2018-鹏鼎控股",
+            name: "门禁&消费系统改建",
+		},
+		{
+			area: "2018-台湾观光学院",
+            name: "选课管理系统",
+		},
+		{
+			area: "2017-丽明营造股份有限公司",
+            name: "土方车GPS监测系统",
+		},
+		{
+			area: "2016-远巧",
+            name: "QC系统",
+		},
+		{
+			area: "2018-台湾筛检学会",
+            name: "网站改版系统",
+		},
+		{
+			area: "2011-奇美电子(现改为群创)",
+            name: "人力资源部人资入口网「eHR」",
+		},
+		{
+			area: "2009-泛太建经",
+            name: "履约保证系统",
+		},
+		{
+			area: "2004-交通部运研所港湾研究中心",
+            name: "港湾环境资讯网系统",
+		}
+	],
+	client_en:[
+		{
+			area: "Years/Client",
+            name: "Project",
+		},
+		{
+			area: "2020-Avary Holiding-India",
+            name: "E.S.D Control System",
+		},
+		{
+			area: "2020-Avary Holiding-Qinhuangdao",
+            name: "E.S.D Control System",
+		},
+		{
+			area: "2020-Avary Holiding-Huaian",
+            name: "E.S.D Control System",
+		},
+		{
+			area: "2020-龍勝濤",
+            name: "TV billboard system construction(hardware) \nTV billboard system construction(software)",
+		},
+		{
+			area: "2018-King Long Technology Limited(KIT)",
+            name: "Construction of access control equipment on floors 1-8 of dormitory G building \nInstall access control equipment on the 1st to 8th floors of Building G \n11 new access control items \nA set of ESD three-roll gate (including installation and commissioning) project \nA set of power on/off (including installation and commissioning) items\nAdd 5 access control items for HiSilicon expansion of KLT second plant \nAdd 1 access control (gateway) to the COG data room \nAdd 1 access control item to the new extension area of MTK semi-finished product warehouse",
+		},
+		{
+			area: "2018-VisEra",
+            name: "Air Pollution and Water Pollution SMS & Notification System (ETS)",
+		},
+		{
+			area: "2018-Avary Holiding",
+            name: "Access Control & Consumer System Reconstruction",
+		},
+		{
+			area: "2018-The Culinary Institute of Taiwan",
+            name: "Course Management System",
+		},
+		{
+			area: "2017-Best-giving",
+            name: "Earthmoving Truck GPS Monitoring System",
+		},
+		{
+			area: "2016-Farsmart",
+            name: "QC System",
+		},
+		{
+			area: "2016-Taiwan Association of Medical Screening",
+            name: "Website Revision System",
+		},
+		{
+			area: "2011- CMO (Now Innolux)",
+            name: "Human Resources Department(eHR)",
+		},
+		{
+			area: "2009-Fantai",
+            name: "Real Rstate Escrow system",
+		},
+		{
+			area: "2004-Habor & Marine Technology Center",
+            name: "Habor Environment Information Website System",
+		}
 		
 	],
 };
-	var vm_tsmc = new Vue({
+	var vm_factory4 = new Vue({
 		el: '#client-fac4',
 		data: client_factory4
         });
 var client_factory5 = {
 	client_tw:[
 		{
-			area: "工程地區",
-            name: "服務產品(案名)",
+			area: "年份/客戶",
+            name: "建置合約",
 		},
 		{
-			area: "台中- 康寧",
-            name: "TC602_T17 -128 TCL602 Facility Mods EPC",
+			area: "2018-京隆科技",
+            name: "宿舍 G棟1～8樓門禁設備建置",
 		},
 		{
-			area: "台中- 美光",
-            name: "TMC F1 project",
+			area: "2018-京隆科技",
+            name: "宿舍 G棟1～8樓門禁建置施工",
 		},
 		{
-			area: "台中-  AUO L8B",
-            name: "GED2 Electrical_RFQ_VFD AB753",
+			area: "2018-京隆科技",
+            name: "11個門禁新增工程",
 		},
 		{
-			area: "台中-  AUO L8B",
-            name: "VFD AB753",
+			area: "2018-京隆科技",
+            name: "一組ESD三輥閘機（含安裝調試）工程",
 		},
 		{
-			area: "台中- 美光",
-            name: "TMC Phase I - F01 package",
+			area: "2018-京隆科技",
+            name: "通關機一組（含安裝調試）工程",
+		},
+		{
+			area: "2018-京隆科技",
+            name: "新增5門禁工程For KLT二廠海思擴充",
+		},
+		{
+			area: "2018-京隆科技",
+            name: "COG物料間新增1間門禁（閘道）",
+		},
+		{
+			area: "2018-京隆科技",
+            name: "新增 1個門禁工程For MTK半成品倉新 擴隔間",
 		}
-		
-		
 	],
 };
-	var vm_tsmc = new Vue({
+	var vm_factory5 = new Vue({
 		el: '#client-fac5',
 		data: client_factory5
         });
