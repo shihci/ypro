@@ -6,28 +6,31 @@ var news = {
 			title: "二十年里程碑資訊科技整合服務",
             date: "2021/03/16",
 			content: "英寶科技創立二十余年，擁有專業的技術、豐富的經驗,因應企業的需求，量身定做最適合的解決方案",
-			img:"onclick='javascript:location.href='http://www.wibibi.com''"
+			url:"#",
 		},
 		{
 			title: "自動化控制",
             date: "2021/03/16",
 			content: "實踐自動化控制，穩定創新，鉅細靡遺。減少成本，效益最大化。",
-			img:"onclick='javascript:location.href='http://www.google.com''"
+			url:"#",
 		},
 		{
 			title: "企業廠務",
             date: "2021/03/16",
-			content: "提供整合式監控管理平台，提高產業運作效能。應用統計分析技術，對廠務系統的數據進行蒐集與監控，協助使用者管理與整合，降低異常所造成的損失。"
+			content: "提供整合式監控管理平台，提高產業運作效能。應用統計分析技術，對廠務系統的數據進行蒐集與監控，協助使用者管理與整合，降低異常所造成的損失。",
+			url:"#",
 		},
 		{
 			title: "【徵才招募】成為英寶精英",
             date: "2021/03/16",
-			content: "本公司目前擴大職缺徵才,歡迎擁有實力的你加入英寶團隊, 有意願者歡迎上1111人力銀行查看最新職缺！"
+			content: "本公司目前擴大職缺徵才,歡迎擁有實力的你加入英寶團隊, 有意願者歡迎上1111人力銀行查看最新職缺！",
+			url:"#",
 		},
 		{
 			title: "【公告】防疫需求須知",
             date: "2021/03/16",
-			content: "因應新冠肺炎(COVID-19)疫情問題，凡進公司之人員、維修人員、訪客等皆需量體溫，量測體溫未超過37.5度者，方可進入公司。"
+			content: "因應新冠肺炎(COVID-19)疫情問題，凡進公司之人員、維修人員、訪客等皆需量體溫，量測體溫未超過37.5度者，方可進入公司。",
+			url:"#",
 		}
 		
 		
@@ -36,27 +39,32 @@ var news = {
 		{
 			title: "二十年里程碑资讯科技整合服务",
             date: "2021/03/16",
-			content: "英宝科技创立二十余年，拥有专业的技术、丰富的经验,因应企业的需求，量身定做最适合的解决方案"
+			content: "英宝科技创立二十余年，拥有专业的技术、丰富的经验,因应企业的需求，量身定做最适合的解决方案",
+			url:"#",
 		},
 		{
 			title: "自动化控制",
             date: "2021/03/16",
-			content: "实践自动化控制，稳定创新，巨细靡遗。减少成本，效益最大化。"
+			content: "实践自动化控制，稳定创新，巨细靡遗。减少成本，效益最大化。",
+			url:"#",
 		},
 		{
 			title: "企业厂务",
             date: "2021/03/16",
-			content: "提供整合式监控管理平台，提高产业运作效能。应用统计分析技术，对厂务系统的数据进行搜集与监控，协助使用者管理与整合，降低异常所造成的损失。"
+			content: "提供整合式监控管理平台，提高产业运作效能。应用统计分析技术，对厂务系统的数据进行搜集与监控，协助使用者管理与整合，降低异常所造成的损失。",
+			url:"#",
 		},
 		{
 			title: "【征才招募】成为英宝精英",
             date: "2021/03/16",
-			content: "本公司目前扩大职缺征才,欢迎拥有实力的你加入英宝团队, 有意愿者欢迎上1111人力银行查看最新职缺！"
+			content: "本公司目前扩大职缺征才,欢迎拥有实力的你加入英宝团队, 有意愿者欢迎上1111人力银行查看最新职缺！",
+			url:"#",
 		},
 		{
 			title: "【公告】防疫需求须知",
             date: "2021/03/16",
-			content: "因应新冠肺炎(COVID-19)疫情问题，凡进公司之人员、维修人员、访客等皆需量体温，量测体温未超过37.5度者，方可进入公司。"
+			content: "因应新冠肺炎(COVID-19)疫情问题，凡进公司之人员、维修人员、访客等皆需量体温，量测体温未超过37.5度者，方可进入公司。",
+			url:"#",
 		}
 		
 		
@@ -65,27 +73,32 @@ var news = {
 		{
 			title: "Technology Integration Service",
             date: "2021/03/16",
-			content: "YPRO was founded in 1999, which has professional technique,experiences.The company customize the most suitable solution with client's need."
+			content: "YPRO was founded in 1999, which has professional technique,experiences.The company customize the most suitable solution with client's need.",
+			url:"#",
 		},
 		{
 			title: "Intelligent Project",
             date: "2021/03/16",
-			content: "Implement Intelligent Project.Reduce costs and maximize benefits."
+			content: "Implement Intelligent Project.Reduce costs and maximize benefits.",
+			url:"#",
 		},
 		{
 			title: "Facility Monitor Control System Project",
             date: "2021/03/16",
-			content: "It provides an integrated monitoring management terrace to improve the industrial efficiency.Use statistical analysis to collect and monitor control system data.。"
+			content: "It provides an integrated monitoring management terrace to improve the industrial efficiency.Use statistical analysis to collect and monitor control system data.。",
+			url:"#",
 		},
 		{
 			title: "【job Posting】Join Us",
             date: "2021/03/16",
-			content: "YPRO, is searching for global talents to join us. We invite outstanding talents to apply for the position."
+			content: "YPRO, is searching for global talents to join us. We invite outstanding talents to apply for the position.",
+			url:"#",
 		},
 		{
 			title: "【Posting】Pandemic-prevention policies",
             date: "2021/03/16",
-			content: "In response to the Covid19 policy,everyone must wears a mask and checks your temperature before enter company."
+			content: "In response to the Covid19 policy,everyone must wears a mask and checks your temperature before enter company.",
+			url:"#",
 		}
 		
 		
@@ -934,7 +947,7 @@ var client_factory1 = {
 		},
 		{
 			area: "2020-(F16)",
-            name: "IE_工程_ARMS系統",
+            name: "ARMS系統",
 		},
 		{
 			area: "2020-(F10)",
@@ -1006,7 +1019,7 @@ var client_factory1 = {
 		},
 		{
 			area: "2020-(F16)",
-            name: "IE_工程_ARMS系统",
+            name: "ARMS系统",
 		},
 		{
 			area: "2020-(F10)",
@@ -1078,7 +1091,7 @@ var client_factory1 = {
 		},
 		{
 			area: "2020-(F16)",
-            name: "IE_Engineering_ARMS System",
+            name: "ARMS System",
 		},
 		{
 			area: "2020-(F10)",
@@ -1279,7 +1292,7 @@ var client_factory4 = {
 		},
 		{
 			area: "2018-京隆科技",
-            name: "宿舍 G棟1～8樓門禁設備建置\n宿舍 G棟1～8樓門禁建置施工\n11個門禁新增工程\n一組ESD三輥閘機（含安裝調試）工程\n通關機一組（含安裝調試）工程\n新增5門禁工程For KLT二廠海思擴充\nCOG物料間新增1間門禁（閘道)\n新增 1個門禁工程For MTK半成品倉新 擴隔間",
+            name: "宿舍 G棟1～8樓門禁設備建置/施工\n 廠區門禁新增工程\nESD三輥閘機/通關機（含安裝調試）工程\n新增5門禁工程For KLT二廠海思擴充",
 		},
 		{
 			area: "2018-采鈺科技",
@@ -1341,7 +1354,7 @@ var client_factory4 = {
 		},
 		{
 			area: "2018-京隆科技",
-            name: "宿舍G栋1～8楼门禁设备建置\n宿舍G栋1～8楼门禁建置施工\n11个门禁新增工程\n一组ESD三辊闸机（含安装调试）工程\ n通关机一组（含安装调试）工程\n新增5门禁工程For KLT二厂海思扩充\nCOG物料间新增1间门禁（闸道)\n新增1个门禁工程For MTK半成品仓新扩隔间",
+            name: "宿舍G栋1～8楼门禁设备建置/施工\n 厂区门禁新增工程\nESD三辊闸机/通关机（含安装调试）工程\n新增5门禁工程For KLT二厂海思扩充",
 		},
 		{
 			area: "2018-采钰科技",
@@ -1403,7 +1416,7 @@ var client_factory4 = {
 		},
 		{
 			area: "2018-King Long Technology Limited(KIT)",
-            name: "Construction of access control equipment on floors 1-8 of dormitory G building \nInstall access control equipment on the 1st to 8th floors of Building G \n11 new access control items \nA set of ESD three-roll gate (including installation and commissioning) project \nA set of power on/off (including installation and commissioning) items\nAdd 5 access control items for HiSilicon expansion of KLT second plant \nAdd 1 access control (gateway) to the COG data room \nAdd 1 access control item to the new extension area of MTK semi-finished product warehouse",
+            name: "Dormitory G Building 1～8 Floor-Access control equipment establishment / construction \nFactory access control added project \nESD Tripod Turnstile Series/Speed Gate (Including installation and debugging) project \nAdd 5 access control items for HiSilicon expansion of KLT second plant",
 		},
 		{
 			area: "2018-VisEra",

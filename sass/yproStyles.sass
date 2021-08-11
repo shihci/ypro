@@ -390,7 +390,7 @@ html,body
 .infor_3
 	font-size: 13px
 
-//00
+//w00
 
 .carousel-caption-text
 	position: absolute
@@ -535,6 +535,20 @@ html,body
 
 	
 //w01-w06 common styles
+@media screen and (min-width: 1200px)
+	.title-header
+		width: 100%
+		position: relative
+		height: 400px
+		overflow: hidden
+		& img
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%,-50%)
+
+
+
 .z-1
 	z-index: 1
 .title-poa-center
@@ -598,6 +612,8 @@ html,body
 	color: white
 	font-size: 19px
 	font-weight: lighter
+
+
 //w01
 .poa-map
 	position: relative
@@ -613,7 +629,13 @@ html,body
 .address
 	font-size: 14px
 	color: $color_yellow
-
+#Taichung,#Hsinchu,#Tainan,#Shanghai,#Nanjing
+	cursor: pointer
+	&:hover div
+		text-decoration: underline
+		font-size: bold	
+.disabledbtn
+	pointer-events: none;
 .os
 	background-image: url(../images/01_osbg.png)
 	background-size: cover
@@ -625,7 +647,7 @@ html,body
 .future_title
 	color: $color_darkblue
 	font-weight: 600
-	font-size: 21px
+	font-size: 19px
 .vision
 	background-color: $color_darkblue
 	color: #fff
@@ -651,14 +673,30 @@ html,body
 .num
 	position: relative
 	width: 80px
+.future ,.mission ,.mission_text
+	position: relative
 
+.mission
+	background-image: url("../images/beautiful-city-chongqing.jpg")
+	background-repeat: no-repeat
+	background-position: center
+	height: 250px
 .mission_title
 	font-size: 20px
 	font-weight: bold
 	color: $color_blue
+.mission_text
+	top: -65px
 .mission_img
-	margin-top: 2rem
-	margin-bottom: 1rem
+	background-color: #fff
+	position: relative
+	border-radius: 99em
+	width: 150px
+	padding: 16px
+	aspect-ratio:1 / 1
+	display: inline-block
+	box-shadow: 0px 0px 3px black;
+
 .goal_textp
 	position: absolute
 	right: 0
@@ -810,6 +848,19 @@ html,body
 		background-color: #fff
 
 @media(min-width:768px)
+	.mission_text
+		top: -60px
+	.mission
+		background-image: url("../images/beautiful-city-chongqing.jpg")
+		background-repeat: no-repeat
+		background-position: center
+		height: 250px
+	.mission_img
+		background-color: #fff
+		position: relative
+		border-radius: 99em
+		width: 120px
+		
 	.poa-title
 		position: absolute
 		z-index: 2
@@ -838,7 +889,6 @@ html,body
 		height: 460px
 		left: 0
 		bottom: 0
-		background-color: #E0E0E0
 	.future_gray p
 		position: absolute
 		bottom: 0
@@ -847,7 +897,7 @@ html,body
 		margin: 0
 		font-weight: bold
 		-webkit-text-stroke: 1.4px $color_darkblue
-		color: #E0E0E0
+		color: #fff
 		font-family: "Arial","微軟正黑體"
 	.future_yellow
 		position: absolute
@@ -895,6 +945,15 @@ html,body
 		.future_gray p
 			font-size: 65px
 @media(min-width:992px)
+	.mission_text
+		top: -65px
+	.mission
+		background-image: url("../images/beautiful-city-chongqing.jpg")
+		background-repeat: no-repeat
+		background-position: center
+		height: 270px
+	.mission_img
+		width: 130px
 	.poa-map.en
 		position: absolute
 		left: 50%
@@ -1375,6 +1434,7 @@ html,body
 	padding: 4px
 	border: solid 1px #ededed
 .product_img img
+	cursor: pointer
 	max-width: 300px
 	max-height: 300px
 .product_img_sm
@@ -1432,6 +1492,7 @@ html,body
 .td-first tr td:nth-child(1)
 	color: $color_darkblue
 	font-weight: 600
+
 #bigimg2
 	width: 100%
 	height: 100%
