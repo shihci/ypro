@@ -846,19 +846,6 @@ html, body {
   color: #FFB336;
 }
 
-#Taichung, #Hsinchu, #Tainan, #Shanghai, #Nanjing {
-  cursor: pointer;
-}
-
-#Taichung:hover div, #Hsinchu:hover div, #Tainan:hover div, #Shanghai:hover div, #Nanjing:hover div {
-  text-decoration: underline;
-  font-size: bold;
-}
-
-.disabledbtn {
-  pointer-events: none;
-}
-
 .os {
   background-image: url(../images/01_osbg.png);
   background-size: cover;
@@ -1149,7 +1136,7 @@ html, body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .mission_text {
     top: -60px;
   }
@@ -1193,6 +1180,20 @@ html, body {
   }
   .poa-map.en {
     padding: 3rem 3rem;
+  }
+  #Taichung, #Hsinchu, #Tainan, #Shanghai, #Nanjing {
+    cursor: pointer;
+  }
+  #Taichung:hover div, #Hsinchu:hover div, #Tainan:hover div, #Shanghai:hover div, #Nanjing:hover div {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .disabledbtn {
+    pointer-events: none;
+    font-weight: bold;
+  }
+  .disabledbtn > div:first-child {
+    font-size: 15px;
   }
   .future_gray {
     position: absolute;
@@ -1282,7 +1283,7 @@ html, body {
     top: -65px;
   }
   .mission {
-    background-image: url("../images/beautiful-city-chongqing.jpg");
+    background-image: url("../images/01-mission.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 270px;
@@ -1298,6 +1299,9 @@ html, body {
     background-color: #1c1c80;
     color: #fff;
     padding: 3rem 5rem;
+  }
+  .disabledbtn > div:first-child {
+    font-size: 19px;
   }
   .country.en {
     margin: 0;

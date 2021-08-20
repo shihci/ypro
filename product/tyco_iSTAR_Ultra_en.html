@@ -1,368 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TYCO/Dealer-YPRO</title>
-<!-- Bootstrap -->
-<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="../css/aos.css" rel="stylesheet">
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" href="../css/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" href="../css/slick-theme.css" />
-<link href="../css/yproStyles.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TYCO/Dealer-YPRO</title>
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="../css/aos.css" rel="stylesheet">
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" href="../css/slick.css" />
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" href="../css/slick-theme.css" />
+	<link href="../css/yproStyles.css" rel="stylesheet">
 
-<link rel="shortcut icon" href="../images/ypro-icon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="../images/ypro-icon.png" type="image/x-icon">
 </head>
-<style>
-	/*{
-		border:solid 1px;
-	}*/
 
-	</style>
-	<body>
-		
-		<div class="nav_shadow">
-			<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a href="../w00_home_en.html"  class="navbar-brand" > <img src="../images/ypro-logo.png" width="250px" height="52px" alt=""/> </a>
-		  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-		  <div class="collapse navbar-collapse " id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-			  <li class="nav-item"> <a class="nav-link" href="../w01_about-ypro_en.html">About
-				 </a> </li>
-			  <li class="nav-item"> <a class="nav-link" href="../w02_service_en.html">Service</a> </li>
-			  <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="dropdown-toggle">Product</span></a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="../w03_1_FMCSP_en.html">Facility Monitor &amp; Control System Project</a> 
-					<a class="dropdown-item" href="../w03_2_SM_en.html">All-in-one card</a>
-					<a class="dropdown-item" href="../w03_3_IP_en.html">Intelligent Project</a>
-					<a class="dropdown-item" href="../w03_4_PH_en.html">Public Health</a>  </div>
-			  </li>
-			  <li class="nav-item"> <a class="nav-link" href="../w06_dealer_en.html">Dealer</a></li>
-			  <li class="nav-item"> <a class="nav-link" href="../w04_client_en.html">Partners</a></li>
-			  <li class="nav-item"> <a class="nav-link " href="../w05_Recruit_en.html">Recruit</a></li>
-			  <li class="nav-item"> <a class="nav-link " href="http://ems.ypro.com.tw/YPro/login.aspx">Staff</a> </li>
-			</ul>
-			  <span class="d-lg-block d-none">|</span>
-			  <ul class="navbar-nav lan_group">
-			  <li class="language active"><a href="../product/tyco_iSTAR_Ultra_en.html">E</a></li>
-			  <li class="language"><a href="../product/tyco_iSTAR_Ultra.html">繁</a></li>
-			  <li class="language"><a href="../product/tyco_iSTAR_Ultra_cn.html">简</a></li>
-			  </ul>
-		  </div>
-		</nav></div>
-		<div class="fixed-btn">
-		  <div id="thediv" class="px-3 pt-1 pb-2 inforWindows" style="display:none">
-			<button type="button" id="close" class="del"  data-dismiss="informWindows">×</button>
+<body>
+
+	<div class="nav_shadow">
+		<nav id="myAnchor" class="max_nav navbar navbar-expand-lg navbar-light bg-white py-0"> <a
+				href="../w00_home_en.html" class="navbar-brand"> <img src="../images/ypro-logo.png" width="250px"
+					height="52px" alt="" /> </a>
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse " id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="../w01_about-ypro_en.html">About
+						</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="../w02_service_en.html">Service</a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
+								class="dropdown-toggle">Product</span></a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="../w03_1_FMCSP_en.html">Facility Monitor &amp; Control System
+								Project</a>
+							<a class="dropdown-item" href="../w03_2_SM_en.html">All-in-one card</a>
+							<a class="dropdown-item" href="../w03_3_IP_en.html">Intelligent Project</a>
+							<a class="dropdown-item" href="../w03_4_PH_en.html">Public Health</a>
+						</div>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="../w06_dealer_en.html">Dealer</a></li>
+					<li class="nav-item"> <a class="nav-link" href="../w04_client_en.html">Partners</a></li>
+					<li class="nav-item"> <a class="nav-link " href="../w05_Recruit_en.html">Recruit</a></li>
+					<li class="nav-item"> <a class="nav-link " href="http://ems.ypro.com.tw/YPro/login.aspx">Staff</a>
+					</li>
+				</ul>
+				<span class="d-lg-block d-none">|</span>
+				<ul class="navbar-nav lan_group">
+					<li class="language active"><a href="../product/tyco_iSTAR_Ultra_en.html">E</a></li>
+					<li class="language"><a href="../product/tyco_iSTAR_Ultra.html">繁</a></li>
+					<li class="language"><a href="../product/tyco_iSTAR_Ultra_cn.html">简</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="fixed-btn">
+		<div id="thediv" class="px-3 pt-1 pb-2 inforWindows" style="display:none">
+			<button type="button" id="close" class="del" data-dismiss="informWindows">×</button>
 			<div class="info_1">Contact</div>
 			<div class="info_2">Ying Pao Technology INC.</div>
 			<table class="info_3" cellpadding="0">
-			  <tr>
-				<td rowspan="3" width="2px" class="bgc_yellow"></td>
-				<td class="pl-2">Tax：+886-4-26201610</td>
-			  </tr>
-			  <tr>
-				<td class="pl-2">Fax：amyHsu@ypro.com</td>
-			  </tr>
-			  <tr>
-				<td class="pl-2">Add：No. 158, Wucuo Rd., Qingshui Dist., Taichung City 436, Taiwan (R.O.C.)</td>
-			  </tr>
+				<tr>
+					<td rowspan="3" width="2px" class="bgc_yellow"></td>
+					<td class="pl-2">Tax：+886-4-26201610</td>
+				</tr>
+				<tr>
+					<td class="pl-2">Fax：amyHsu@ypro.com</td>
+				</tr>
+				<tr>
+					<td class="pl-2">Add：No. 158, Wucuo Rd., Qingshui Dist., Taichung City 436, Taiwan (R.O.C.)</td>
+				</tr>
 			</table>
-		  </div>
-		  <div class="d-inline-block fixed-btn-group">
-			<div class="pb-2"><a id="go-top" href="#myAnchor"><img  src="../images/fixbtn1.png" width="50" height="50" alt=""/></a></div>
-			<div id="link"><img src="../images/fixbtn2.png" width="50" height="50" alt=""/></div>
-		  </div>
 		</div>
-	
-		
+		<div class="d-inline-block fixed-btn-group">
+			<div class="pb-2"><a id="go-top" href="#myAnchor"><img src="../images/fixbtn1.png" width="50" height="50"
+						alt="" /></a></div>
+			<div id="link"><img src="../images/fixbtn2.png" width="50" height="50" alt="" /></div>
+		</div>
+	</div>
+
+
 	<div class="container-fluid p-0 ">
-	    	<img src="../images/06-banner.jpg" width="100%" alt=""/>
-			<div class="title-poa-center">
-			  <h1 class="title-large">DEALER</h1>
-		  </div>
-			<div class="title-poa d-none d-md-block">
-				<div class="title-btn"><a href="../w06_dealer_en.html">JSUN</a></div>
-				<span class="smline">&nbsp;|&nbsp;</span>
-				  <div class="title-btn"><a href="../w06_dealer_en.html">EGL</a></div>
-				<span class="smline">&nbsp;|&nbsp;</span>
-				<div class="title-btn"><a href="../w06_dealer_en.html">TYCO</a></div>
-				<span class="smline">&nbsp;|&nbsp;</span>
-				<div class="title-btn"><a href="../w06_dealer_en.html">MOXA</a></div>
-			</div>
+		<img src="../images/06-banner.jpg" width="100%" alt="" />
+		<div class="title-poa-center">
+			<h1 class="title-large">DEALER</h1>
 		</div>
-		<div class="container py-5">
-			<div class="row mb-4">
-				<div class="col-12 order-2 col-md-5 order-md-1">
-					<div class="img_group">
+		<div class="title-poa d-none d-md-block">
+			<div class="title-btn"><a href="../w06_dealer_en.html">JSUN</a></div>
+			<span class="smline">&nbsp;|&nbsp;</span>
+			<div class="title-btn"><a href="../w06_dealer_en.html">EGL</a></div>
+			<span class="smline">&nbsp;|&nbsp;</span>
+			<div class="title-btn"><a href="../w06_dealer_en.html">TYCO</a></div>
+			<span class="smline">&nbsp;|&nbsp;</span>
+			<div class="title-btn"><a href="../w06_dealer_en.html">MOXA</a></div>
+		</div>
+	</div>
+	<div class="container py-5">
+		<div class="row mb-4">
+			<div class="col-12 order-2 col-md-5 order-md-1">
+				<div class="img_group">
 					<div class="product_img">
-						<img id="bigimg" src="../images/tyco/iSTAR-Ultra1.jpg" alt=""></div>
-					<div id="bigimg2"><!--放大圖滿版用，請勿刪除--></div>
+						<img id="bigimg" src="../images/tyco/iSTAR-Ultra1.jpg" alt="">
+					</div>
+					<div id="bigimg2">
+						<!--放大圖滿版用，請勿刪除-->
+					</div>
 					<div class="img_group">
 						<div class="slider">
-							<div  class="product_img_sm"><img id="iSTAR-Pro1" src="../images/tyco/iSTAR-Ultra1.jpg" alt=""></div>
-							<div  class="product_img_sm"><img id="iSTAR-Pro2" src="../images/tyco/iSTAR-Ultra2.jpg" alt=""></div>
-							<div  class="product_img_sm"><img id="iSTAR-Pro3" src="../images/tyco/iSTAR-Ultra3.jpg" alt=""></div>
-							<div  class="product_img_sm"><img id="iSTAR-Pro4" src="../images/tyco/iSTAR-Ultra4.jpg" alt=""></div>
-							<div  class="product_img_sm"><img id="iSTAR-Pro5" src="../images/tyco/iSTAR-Ultra5.jpg" alt=""></div>
-							
-						</div>
-					</div>
-					</div>
-				</div>	
-				
-				<div class="col-12 order-1 col-md-7 order-md-2">
-					<h4 class="pd_title">【TYCO】iSTAR Ultra Door Controller – Up to 32 Readers</h4>
-					<div class="pd_int1">Access Controller for up to 32 Readers</div>
-					<div class="pd_int2">&nbsp;&nbsp;&nbsp;&nbsp;iSTAR Ultra is a powerful, network-ready door controller built on the Linux platform that supports up to 32 readers. This powerful controller supports both traditional hard-wired and wireless locks, all in the same controller. Of the 32 supported readers, 16 may come from the Access Control Module's (ACM) I/O units – the rest can be made up of wireless lock sets and devices.<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Rack-mount and wall-mount options provide installation flexibility, while iSTAR Ultra's unique lock power management eliminates the need for separate lock power interface boards. iSTAR Ultra features a hardened Linux kernel for its operating system, improving the security and scalability of the system.</div>
-					<div class="pd_feature  d-none d-xl-block">
-						• Powerful network-ready door controller for up to 32 readers (16 from ACMs)<br>
-						• Embedded lock power management lowers installation costs<br>
-						• Hardened Linux embedded OS for improved security and scalability<br>
-						• Includes global anti-passback and advanced peer-to-peer clustering<br>
-						• Native intrusion zone functionality<br>
-						• LCD provides important controller status and diagnostics information<br>
-						• Manages up to 500,000 cardholders in local memory<br>
-						• Dedicated input for fire alarm interlock overrides door locks during fire conditions<br>
-						• Dual GigE network ports and FIPS 197 certified AES 256 network encryption<br>
-						• Enables Aperio wireless locks to communicate with C•CURE 9000 providing a fully integrated and managed lock solution<br>
-						• Rack-mount models provide flexibility in mounting options<br>
-						• Compatible with C•CURE 9000 v2.30 and above
+							<div class="product_img_sm"><img id="iSTAR-Pro1" src="../images/tyco/iSTAR-Ultra1.jpg"
+									alt=""></div>
+							<div class="product_img_sm"><img id="iSTAR-Pro2" src="../images/tyco/iSTAR-Ultra2.jpg"
+									alt=""></div>
+							<div class="product_img_sm"><img id="iSTAR-Pro3" src="../images/tyco/iSTAR-Ultra3.jpg"
+									alt=""></div>
+							<div class="product_img_sm"><img id="iSTAR-Pro4" src="../images/tyco/iSTAR-Ultra4.jpg"
+									alt=""></div>
+							<div class="product_img_sm"><img id="iSTAR-Pro5" src="../images/tyco/iSTAR-Ultra5.jpg"
+									alt=""></div>
 
+						</div>
 					</div>
-		</div>
-				
+				</div>
 			</div>
-			<div class="row">
-				<div class="col-12">
-					
-					
-					<ul class="nav pd-nav">
-						<li class="nav-item">
-						  <a class="nav-link pd-item  active" data-toggle="tab" href="#home">Introduction</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link pd-item" data-toggle="tab" href="#menu1">Features</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link pd-item" data-toggle="tab" href="#menu2">Specifications</a>
-						</li>
-					  </ul>
-					<div class="pd-content tab-content">
-						<div id="home" class="container tab-pane active"><br>
-						  <h3>Introduction</h3>
-							<h5>Supports up to 32 Readers</h5>
-						  	<p>&emsp;&emsp;iSTAR Ultra uniquely combines support for traditional hard-wired access control doors with support for wireless lock sets, all in the same controller. Up to 32 readers are supported by the iSTAR Ultra, of which the total can be comprised of readers from ACM access control modules, IP-ACMs and/or wireless locksets.<br>
-							&emsp;&emsp;iSTAR Ultra is ideal for areas that require many readers in close proximity to the panel. For more distributed installations, iSTAR Ultra includes up to 32 RS-485 ports, allowing the installer to run longer distances to each door.<br>
-							&emsp;&emsp;iSTAR Ultra uses a General Controller Module (GCM) which includes standard 2GB RAM and 16GB SD card for memory, and has two onboard gigabit network ports for reliable network communications. The GCM controls up to four ACMs, with each ACM supporting up to eight Wiegand, RM or OSDP readers, along with 24 supervised inputs and 16 outputs which can be individually wet- or dryconfigured.<br>
-							&emsp;&emsp;iSTAR Ultra also includes an alphanumeric LCD to provide status and troubleshooting information. Database backups and all buffered transactions are stored to non-volatile SD card memory. A real-time clock battery keeps the clock powered during a power failure.
-							</p>
-						  <h5>Network Ready</h5>
-							<p>&emsp;&emsp;iSTAR Ultra includes two onboard gigabit network ports for primary and secondary communications to the host. 256-bit FIPS 197 AES network encryption, with custom key management, secures the controller from potential network threats. iSTAR Ultra supports both static and dynamic IP addresses, IPv4 or IPv6, using DHCP and DNS to simplify network installation. In addition, the powerful iSTAR Configuration Utility (ICU) reduces startup time by allowing you to view online controllers, change configuration parameters, and download new firmware from a single interface.</p>
-						
-						 
-							 
-							  
-						
-						</div>
-						<div id="menu1" class="container tab-pane fade"><br>
-						  <h3>Features</h3>
-						<h5>Embedded Lock Power Management</h5>
-							<p>The iSTAR Ultra's ACM offers a unique, straightforward approach to managing the complete lock power needs of an installation. The ACM is designed to distribute power directly to each lock circuit without needing a separate fused distribution board (and the associated interconnect wiring). Each ACM has two separate lock power feeds in addition to controller power. These feeds can be used for different voltages (12 V and 24 V for example) or for battery-backed and non battery-backed power sources to comply with certain local life safety codes.<br>
-								Each lock output can then be selected to use either a dry contact, lock power 1, or lock power 2, providing tremendous flexibility. In addition, each lock circuit is protected with a PTC resettable fuse and over-voltage surge protection through the extensive use of transzorbs, and includes a socketed relay for quick field replacement. Each lock circuit can be individually selected to unlock or lock based on the dedicated fire alarm input setting, meeting life safety requirements.</p>
-						<h5>Ensure Reliable Communication with Clusters</h5>
-						<p>iSTAR Ultra supports peer-to-peer communications across clusters meaning that the controllers communicate with one another without needing host intervention. Clusters are userdefined groups of up to 16 controllers and can be created to enhance security by separating a widely dispersed facility into different controlled areas. For example, events linking inputs on one controller to outputs on another controller will still be active without the host.
-							</p>
-						<h5>Local and Global Anti-Passback Provides Effective System-Wide Security</h5>
-						<p>Anti-passback prevents cardholders from passing their credentials back to others in order to gain access to secured areas. Global anti-passback is critical for ensuring uncompromised security on a large scale. Building upon cluster based anti-passback as described above, the controllers are able to send an anti-passback violation notice to the C•CURE server. Tailgating, or following another cardholder into a secured area without presenting a separate badge, can easily be flagged within the C•CURE monitoring station.
-							</p>
-						
-						
-						<h5>Rack-Mount Flexibility</h5>
-						<p>iSTAR Ultra is available in a modular rack-mount configuration, reducing the space requirements and costs associated with installing a panel on the wall. Separate GCM and ACM modules can be arranged in the rack to optimize your server room installation. For example, the GCM can be mounted in the front of a four-post rack, while the ACM and field wiring can be located in the rear of the rack. Field wiring on the ACM is easily routed through the top and/or bottom of the enclosure, with the ACM board mounted front and center for convenient servicing.
-							</p>
-						<h5>Keypad Commands Provide the Ultimate in Control</h5>
-						<p>iSTAR Ultra supports custom keypad commands which provide a powerful way to easily activate events in C•CURE. These commands include anything from triggering a duress call and sounding an alarm, to locking and unlocking doors directly from an RM reader keypad. Commands can be configured to require a card presentation and/or a card and PIN to validate the command. Keypad commands can also be used to arm and disarm intrusion zones.
-							</p>
-						<h5>Improves Life Safety</h5>
-							<p>A dedicated input for a fire alarm tie-in automatically locks or unlocks selected door lock outputs in the event of a fire condition. The fire input may be unsupervised or supervised, and the release circuit does not require software programming for operation. In addition, a second input for a manual keyswitch is provided, such that the door lock outputs will not re-lock unless authorized safety personnel confirm the safety of the building via the keyswitch. The keyswitch functionality is enabled via an onboard DIP switch.
-							</p>
-							<h5>Extended Card Formats Enhance Security</h5>
-							<p>iSTAR Ultra supports extended card formats of up to 256 bits, providing the utmost in flexibility when configuring custom card formats. iSTAR Ultra supports the full 200-bit FASC-N format for compliance with the US Government's FIPS 201 initiative, as well as the 128-bit GUID format for PIV-I credentials. These extended cardholder formats are stored locally in iSTAR allowing the controller to make the access decision even when it is offline from the host. Each format supports multiple data fields such as card number, site code, issue code, parity, agency code, system code, plus up to four custom card integer fields. Longer card numbers and formats offer greater protection against card duplication, and are especially valuable to customers who require card numbers that exceed 10 digits.</p>
-							<h5>Cardholder Flexibility</h5>
-							<p>Used with C•CURE 9000, iSTAR Ultra allows administrators to assign up to five active cards per cardholder record rather than having to create a separate record for each card. This simplifies the management and maintenance of personnel records. For additional flexibility, iSTAR Ultra can support up to 128 card formats system-wide and ten card formats per reader, including smart cards. This expanded ability to use multiple card types (such as 26-bit, 37-bit, or Corporate 1000) at a single reader frees customers from having to consolidate or re-issue new cards.</p>
-							<h5>Built-in Diagnostics to Easily Test and Troubleshoot</h5>
-							<p>iSTAR Ultra includes both built-in web diagnostics pages and a local LCD to test and troubleshoot inputs, outputs, reader ports, and last card read. In addition, via the network, you can retrieve real-time status and diagnostics of:<br>
-								• controller time/boot time<br>
-								• total/available memory<br>
-								• connection status<br>
-								• firmware and OS versions<br>
-								• hardware (MAC) and IP addresses<br>
-								• downloaded clearances and cardholders</p>
-							<h5>Fully Integrated and Managed Lock Solution</h5>
-							<p>Utilizing iSTAR Ultra, wireless locks from ASSA ABLOY or Schlage communicate with C•CURE 9000, providing a fully integrated and managed lock solution. Up to 32 ASSA ABLOY Aperio or Schlage AD300, AD400, NDE and LE locksets can be managed by a single iSTAR Ultra. In addition to traditional locksets, the ASSA ABLOY Aperio line also includes cabinet and data center locks, allowing you to extend the breadth of your access control system to non-traditional openings. Each lockset communicates using AES 128-bit encrypted wireless technology to the wireless hub, which is then connected to the iSTAR Ultra with a simple RS-485 communications bus. Each hub can accommodate up to eight Aperio wireless locks or 16 Schlage wireless locks.<br>
-							All activity and alarms from each wireless device are sent to the iSTAR Ultra and then up to the C•CURE 9000 in real time, guaranteeing a high level of control and visibility of door actions. Besides standard card access transactions, each device also communicates low battery, tamper, and communications status to the system.</p>
-							<h5>Embedded Support for FICAM High Assurance</h5>
-							<p>Used with the Innometriks suite of High Assurance ID Management software, iSTAR Ultra supports PKI-based authentication at the door, including CAK and PAK, card plus PIN, and biometric match in panel. Unique cardholder PKI information and biometric templates are stored and authenticated directly in the iSTAR Ultra, on the secure side of the door, for reliable stand-alone operation. High Assurance PKI-based authentication is required to comply with the U.S. Government's FICAM standards and is ideal for commercial and non-government customers as well.</p>
-							
-						
-						</div>
-						<div id="menu2" class="container tab-pane fade"><br>
-						  <h3>Specifications</h3>
-						  <p>
-							  <table class="table">
-								  
-								  <tr>
-								  	<td class="table_subtitle" colspan="2">Physical/Dimensions(H x W x D)</td>
-								  </tr>
-								   
-								  <tr>
-								  	<td style="white-space: nowrap">Wall-Mount</td>
-								  	<td> 635 x 560 x 127 mm (25.0 x 22.0 x 5.0 in))</td>
-								  </tr>
-								  <tr>
-								  	<td>Rack-Mount GCM</td>
-								  	<td>86 x 445 x 252 mm (3.4 x 17.5 x 10 in))（2U rack height）</td>
-								  </tr><tr>
-								  	<td>Rack-Mount ACM</td>
-								  	<td>175 x 445 x 125 mm (6.9 x 17.5 x 4.9 in))（4U rack height）</td>
-								  </tr>
-								  <tr>
-								  	<td>GCM Board</td>
-								  	<td>165 x 266 x 26 mm (6.5 x 10.5 x 1.02 in))</td>
-								  </tr><tr>
-								  	<td>ACM Board</td>
-								  	<td>115 x 397 x 36 mm (4.5 x 15.7 x 1.4 in))</td>
-								  </tr>
-								  <tr>
-								  	<td class="table_subtitle" colspan="2">Weight</td>
-								  </tr>
-								  <tr>
-								  	<td>Wall-Mount</td>
-								  	<td>12.3 kg（27lbs）</td>
-								  </tr>
-								  <tr>
-								  	<td>Rack-Mount GCM</td>
-								  	<td>4.3 kg（9.5lbs）</td>
-								  </tr><tr>
-								  	<td>Rack-Mount ACM</td>
-								  	<td>4.1 kg（9.0lbs）</td>
-								  </tr>
-								  <tr>
-								  	<td>Enclosure Material</td>
-								  	<td>16 gauge carbon steel, with tamper switch</td>
-								  </tr>
-								  <tr>
-								  	<td class="table_subtitle" colspan="2">Environmental</td>
-								  </tr>
-								  <tr>
-								  	<td>Operating Temperature</td>
-								  	<td>0-50°C (32-122°F)</td>
-								  </tr>
-								  <tr>
-								  	<td>Operating Relative Humidity</td>
-								  	<td>5-95% RH non-condensing</td>
-								  </tr><tr>
-								  	<td>Storage Temperature</td>
-								  	<td>-20-60°C (-4-140°F)</td>
-								  </tr>
-								  
-								  
-								  <tr>
-								  	<td class="table_subtitle" colspan="2">Electrical</td>
-								  </tr>
-								  <tr>
-								  	<td>Power Requirements,GCM</td>
-								  	<td>12 VDC +/- 20%, 0.5 A plus up to 1.5 A per RS-485 port</td>
-								  </tr>
-								  <tr>
-								  	<td>Power Requirements,Each ACM</td>
-								  	<td>ACM board: 12 VDC +/- 20%, 0.5 A min, up to 12 A max depending on power required of connected devices (readers, door modules, PIRs). ACM lock power (optional): 0-30 VDC, up to 12 A max (two lock power inputs per ACM)
-									  </td>
-								  </tr><tr>
-								  	<td>Heat Dissipation</td>
-								  	<td>GCM: 61 BTU/hr, each ACM: 20.5 BTU/hr</td>
-								  </tr>
-								  <tr>
-								  	<td>Memory and RTC Backup</td>
-								  	<td>CR 2032 lithium battery provides RTC backup; database and buffered transactions stored in non-volatile memory</td>
-								  </tr>
-								  <tr>
-								  	<td class="table_subtitle" colspan="2">System and Network</td>
-								  </tr>
-								  <tr>
-								  	<td>CPU</td>
-								  	<td>Freescale i.MX6 1 GHz dual core Cortex-A9</td>
-								  </tr>
-								  <tr>
-								  	<td>System Memory</td>
-								  	<td>2 GB RAM</td>
-								  </tr>
-								  <tr>
-								  	<td>SD Storage</td>
-								  	<td>16 GB SD card</td>
-								  </tr>
-								   <tr>
-								  	<td>Primary Network Port</td>
-								  	<td>10/100/1000 Mbps, full duplex, autonegotiate</td>
-								  </tr>
-								   <tr>
-								  	<td>Secondary Network Port</td>
-								  	<td>10/100/1000 Mbps, full duplex, autonegotiate</td>
-								  </tr>
-								   <tr>
-								  	<td>Network Encryption</td>
-								  	<td>AES 256-bit, with custom key management</td>
-								  </tr>
-								   <tr>
-								  	<td>Indicators and Switches</td>
-								  	<td>LCD for diagnostics, LEDs for power, LAN activity, serial port activity, output status, encryption-enable switch</td>
-								  </tr>
-								  <tr>
-								  	<td class="table_subtitle" colspan="2">Memory Capacity3</td>
-								  </tr>
-								   <tr>
-								  	<td>Ten clearances, five cards/ person, 40-digit card</td>
-								  	<td>500,000 cardholders</td>
-								  </tr>
-								 
-								   <tr>
-								  	<td>Offline Transaction Buffer Size </td>
-								  	<td>10,000 minimum, 500,000 maximum</td>
-								  </tr>
-								   <tr>
-								  	<td class="table_subtitle" colspan="2">Inputs/Outputs，GCM</td>
-								  </tr>
-								   <tr>
-								  	<td>Dedicated Inputs </td>
-								  	<td>Cabinet tamper, AC fail, low battery</td>
-								  </tr>
-								   <tr>
-								  	<td>Distance, GCM to ACM</td>
-								  	<td>Up to 1.83 m (6 ft)</td>
-								  </tr>
-								  	
-								   
-							</table>
-							</p>
-						</div>
-					  </div>
-					</div>
-					
+
+			<div class="col-12 order-1 col-md-7 order-md-2">
+				<h4 class="pd_title">【TYCO】iSTAR Ultra Door Controller – Up to 32 Readers</h4>
+				<div class="pd_int1">Access Controller for up to 32 Readers</div>
+				<div class="pd_int2">&nbsp;&nbsp;&nbsp;&nbsp;iSTAR Ultra is a powerful, network-ready door controller
+					built on the Linux platform that supports up to 32 readers. This powerful controller supports both
+					traditional hard-wired and wireless locks, all in the same controller. Of the 32 supported readers,
+					16 may come from the Access Control Module's (ACM) I/O units – the rest can be made up of wireless
+					lock sets and devices.<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;Rack-mount and wall-mount options provide installation flexibility, while
+					iSTAR Ultra's unique lock power management eliminates the need for separate lock power interface
+					boards. iSTAR Ultra features a hardened Linux kernel for its operating system, improving the
+					security and scalability of the system.</div>
+				<div class="pd_feature  d-none d-xl-block">
+					• Powerful network-ready door controller for up to 32 readers (16 from ACMs)<br>
+					• Embedded lock power management lowers installation costs<br>
+					• Hardened Linux embedded OS for improved security and scalability<br>
+					• Includes global anti-passback and advanced peer-to-peer clustering<br>
+					• Native intrusion zone functionality<br>
+					• LCD provides important controller status and diagnostics information<br>
+					• Manages up to 500,000 cardholders in local memory<br>
+					• Dedicated input for fire alarm interlock overrides door locks during fire conditions<br>
+					• Dual GigE network ports and FIPS 197 certified AES 256 network encryption<br>
+					• Enables Aperio wireless locks to communicate with C•CURE 9000 providing a fully integrated and
+					managed lock solution<br>
+					• Rack-mount models provide flexibility in mounting options<br>
+					• Compatible with C•CURE 9000 v2.30 and above
 
 				</div>
 			</div>
-		
+
+		</div>
+		<div class="row">
+			<div class="col-12">
+
+				<ul class="nav pd-nav">
+					<li class="nav-item">
+						<a class="nav-link pd-item  active" data-toggle="tab" href="#home">Introduction</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link pd-item" data-toggle="tab" href="#menu1">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link pd-item" data-toggle="tab" href="#menu2">Specifications</a>
+					</li>
+				</ul>
+				<div class="pd-content tab-content">
+					<div id="home" class="container tab-pane active"><br>
+						<h3>Introduction</h3>
+						<h5>Supports up to 32 Readers</h5>
+						<p>&emsp;&emsp;iSTAR Ultra uniquely combines support for traditional hard-wired access control
+							doors with support for wireless lock sets, all in the same controller. Up to 32 readers are
+							supported by the iSTAR Ultra, of which the total can be comprised of readers from ACM access
+							control modules, IP-ACMs and/or wireless locksets.<br>
+							&emsp;&emsp;iSTAR Ultra is ideal for areas that require many readers in close proximity to
+							the panel. For more distributed installations, iSTAR Ultra includes up to 32 RS-485 ports,
+							allowing the installer to run longer distances to each door.<br>
+							&emsp;&emsp;iSTAR Ultra uses a General Controller Module (GCM) which includes standard 2GB
+							RAM and 16GB SD card for memory, and has two onboard gigabit network ports for reliable
+							network communications. The GCM controls up to four ACMs, with each ACM supporting up to
+							eight Wiegand, RM or OSDP readers, along with 24 supervised inputs and 16 outputs which can
+							be individually wet- or dryconfigured.<br>
+							&emsp;&emsp;iSTAR Ultra also includes an alphanumeric LCD to provide status and
+							troubleshooting information. Database backups and all buffered transactions are stored to
+							non-volatile SD card memory. A real-time clock battery keeps the clock powered during a
+							power failure.
+						</p>
+						<h5>Network Ready</h5>
+						<p>&emsp;&emsp;iSTAR Ultra includes two onboard gigabit network ports for primary and secondary
+							communications to the host. 256-bit FIPS 197 AES network encryption, with custom key
+							management, secures the controller from potential network threats. iSTAR Ultra supports both
+							static and dynamic IP addresses, IPv4 or IPv6, using DHCP and DNS to simplify network
+							installation. In addition, the powerful iSTAR Configuration Utility (ICU) reduces startup
+							time by allowing you to view online controllers, change configuration parameters, and
+							download new firmware from a single interface.</p>
+
+
+
+
+
+					</div>
+					<div id="menu1" class="container tab-pane fade"><br>
+						<h3>Features</h3>
+						<h5>Embedded Lock Power Management</h5>
+						<p>The iSTAR Ultra's ACM offers a unique, straightforward approach to managing the complete lock
+							power needs of an installation. The ACM is designed to distribute power directly to each
+							lock circuit without needing a separate fused distribution board (and the associated
+							interconnect wiring). Each ACM has two separate lock power feeds in addition to controller
+							power. These feeds can be used for different voltages (12 V and 24 V for example) or for
+							battery-backed and non battery-backed power sources to comply with certain local life safety
+							codes.<br>
+							Each lock output can then be selected to use either a dry contact, lock power 1, or lock
+							power 2, providing tremendous flexibility. In addition, each lock circuit is protected with
+							a PTC resettable fuse and over-voltage surge protection through the extensive use of
+							transzorbs, and includes a socketed relay for quick field replacement. Each lock circuit can
+							be individually selected to unlock or lock based on the dedicated fire alarm input setting,
+							meeting life safety requirements.</p>
+						<h5>Ensure Reliable Communication with Clusters</h5>
+						<p>iSTAR Ultra supports peer-to-peer communications across clusters meaning that the controllers
+							communicate with one another without needing host intervention. Clusters are userdefined
+							groups of up to 16 controllers and can be created to enhance security by separating a widely
+							dispersed facility into different controlled areas. For example, events linking inputs on
+							one controller to outputs on another controller will still be active without the host.
+						</p>
+						<h5>Local and Global Anti-Passback Provides Effective System-Wide Security</h5>
+						<p>Anti-passback prevents cardholders from passing their credentials back to others in order to
+							gain access to secured areas. Global anti-passback is critical for ensuring uncompromised
+							security on a large scale. Building upon cluster based anti-passback as described above, the
+							controllers are able to send an anti-passback violation notice to the C•CURE server.
+							Tailgating, or following another cardholder into a secured area without presenting a
+							separate badge, can easily be flagged within the C•CURE monitoring station.
+						</p>
+
+
+						<h5>Rack-Mount Flexibility</h5>
+						<p>iSTAR Ultra is available in a modular rack-mount configuration, reducing the space
+							requirements and costs associated with installing a panel on the wall. Separate GCM and ACM
+							modules can be arranged in the rack to optimize your server room installation. For example,
+							the GCM can be mounted in the front of a four-post rack, while the ACM and field wiring can
+							be located in the rear of the rack. Field wiring on the ACM is easily routed through the top
+							and/or bottom of the enclosure, with the ACM board mounted front and center for convenient
+							servicing.
+						</p>
+						<h5>Keypad Commands Provide the Ultimate in Control</h5>
+						<p>iSTAR Ultra supports custom keypad commands which provide a powerful way to easily activate
+							events in C•CURE. These commands include anything from triggering a duress call and sounding
+							an alarm, to locking and unlocking doors directly from an RM reader keypad. Commands can be
+							configured to require a card presentation and/or a card and PIN to validate the command.
+							Keypad commands can also be used to arm and disarm intrusion zones.
+						</p>
+						<h5>Improves Life Safety</h5>
+						<p>A dedicated input for a fire alarm tie-in automatically locks or unlocks selected door lock
+							outputs in the event of a fire condition. The fire input may be unsupervised or supervised,
+							and the release circuit does not require software programming for operation. In addition, a
+							second input for a manual keyswitch is provided, such that the door lock outputs will not
+							re-lock unless authorized safety personnel confirm the safety of the building via the
+							keyswitch. The keyswitch functionality is enabled via an onboard DIP switch.
+						</p>
+						<h5>Extended Card Formats Enhance Security</h5>
+						<p>iSTAR Ultra supports extended card formats of up to 256 bits, providing the utmost in
+							flexibility when configuring custom card formats. iSTAR Ultra supports the full 200-bit
+							FASC-N format for compliance with the US Government's FIPS 201 initiative, as well as the
+							128-bit GUID format for PIV-I credentials. These extended cardholder formats are stored
+							locally in iSTAR allowing the controller to make the access decision even when it is offline
+							from the host. Each format supports multiple data fields such as card number, site code,
+							issue code, parity, agency code, system code, plus up to four custom card integer fields.
+							Longer card numbers and formats offer greater protection against card duplication, and are
+							especially valuable to customers who require card numbers that exceed 10 digits.</p>
+						<h5>Cardholder Flexibility</h5>
+						<p>Used with C•CURE 9000, iSTAR Ultra allows administrators to assign up to five active cards
+							per cardholder record rather than having to create a separate record for each card. This
+							simplifies the management and maintenance of personnel records. For additional flexibility,
+							iSTAR Ultra can support up to 128 card formats system-wide and ten card formats per reader,
+							including smart cards. This expanded ability to use multiple card types (such as 26-bit,
+							37-bit, or Corporate 1000) at a single reader frees customers from having to consolidate or
+							re-issue new cards.</p>
+						<h5>Built-in Diagnostics to Easily Test and Troubleshoot</h5>
+						<p>iSTAR Ultra includes both built-in web diagnostics pages and a local LCD to test and
+							troubleshoot inputs, outputs, reader ports, and last card read. In addition, via the
+							network, you can retrieve real-time status and diagnostics of:<br>
+							• controller time/boot time<br>
+							• total/available memory<br>
+							• connection status<br>
+							• firmware and OS versions<br>
+							• hardware (MAC) and IP addresses<br>
+							• downloaded clearances and cardholders</p>
+						<h5>Fully Integrated and Managed Lock Solution</h5>
+						<p>Utilizing iSTAR Ultra, wireless locks from ASSA ABLOY or Schlage communicate with C•CURE
+							9000, providing a fully integrated and managed lock solution. Up to 32 ASSA ABLOY Aperio or
+							Schlage AD300, AD400, NDE and LE locksets can be managed by a single iSTAR Ultra. In
+							addition to traditional locksets, the ASSA ABLOY Aperio line also includes cabinet and data
+							center locks, allowing you to extend the breadth of your access control system to
+							non-traditional openings. Each lockset communicates using AES 128-bit encrypted wireless
+							technology to the wireless hub, which is then connected to the iSTAR Ultra with a simple
+							RS-485 communications bus. Each hub can accommodate up to eight Aperio wireless locks or 16
+							Schlage wireless locks.<br>
+							All activity and alarms from each wireless device are sent to the iSTAR Ultra and then up to
+							the C•CURE 9000 in real time, guaranteeing a high level of control and visibility of door
+							actions. Besides standard card access transactions, each device also communicates low
+							battery, tamper, and communications status to the system.</p>
+						<h5>Embedded Support for FICAM High Assurance</h5>
+						<p>Used with the Innometriks suite of High Assurance ID Management software, iSTAR Ultra
+							supports PKI-based authentication at the door, including CAK and PAK, card plus PIN, and
+							biometric match in panel. Unique cardholder PKI information and biometric templates are
+							stored and authenticated directly in the iSTAR Ultra, on the secure side of the door, for
+							reliable stand-alone operation. High Assurance PKI-based authentication is required to
+							comply with the U.S. Government's FICAM standards and is ideal for commercial and
+							non-government customers as well.</p>
+
+
+					</div>
+					<div id="menu2" class="container tab-pane fade"><br>
+						<h3>Specifications</h3>
+						<p>
+						<table class="table">
+
+							<tr>
+								<td class="table_subtitle" colspan="2">Physical/Dimensions(H x W x D)</td>
+							</tr>
+
+							<tr>
+								<td style="white-space: nowrap">Wall-Mount</td>
+								<td> 635 x 560 x 127 mm (25.0 x 22.0 x 5.0 in))</td>
+							</tr>
+							<tr>
+								<td>Rack-Mount GCM</td>
+								<td>86 x 445 x 252 mm (3.4 x 17.5 x 10 in))（2U rack height）</td>
+							</tr>
+							<tr>
+								<td>Rack-Mount ACM</td>
+								<td>175 x 445 x 125 mm (6.9 x 17.5 x 4.9 in))（4U rack height）</td>
+							</tr>
+							<tr>
+								<td>GCM Board</td>
+								<td>165 x 266 x 26 mm (6.5 x 10.5 x 1.02 in))</td>
+							</tr>
+							<tr>
+								<td>ACM Board</td>
+								<td>115 x 397 x 36 mm (4.5 x 15.7 x 1.4 in))</td>
+							</tr>
+							<tr>
+								<td class="table_subtitle" colspan="2">Weight</td>
+							</tr>
+							<tr>
+								<td>Wall-Mount</td>
+								<td>12.3 kg（27lbs）</td>
+							</tr>
+							<tr>
+								<td>Rack-Mount GCM</td>
+								<td>4.3 kg（9.5lbs）</td>
+							</tr>
+							<tr>
+								<td>Rack-Mount ACM</td>
+								<td>4.1 kg（9.0lbs）</td>
+							</tr>
+							<tr>
+								<td>Enclosure Material</td>
+								<td>16 gauge carbon steel, with tamper switch</td>
+							</tr>
+							<tr>
+								<td class="table_subtitle" colspan="2">Environmental</td>
+							</tr>
+							<tr>
+								<td>Operating Temperature</td>
+								<td>0-50°C (32-122°F)</td>
+							</tr>
+							<tr>
+								<td>Operating Relative Humidity</td>
+								<td>5-95% RH non-condensing</td>
+							</tr>
+							<tr>
+								<td>Storage Temperature</td>
+								<td>-20-60°C (-4-140°F)</td>
+							</tr>
+
+
+							<tr>
+								<td class="table_subtitle" colspan="2">Electrical</td>
+							</tr>
+							<tr>
+								<td>Power Requirements,GCM</td>
+								<td>12 VDC +/- 20%, 0.5 A plus up to 1.5 A per RS-485 port</td>
+							</tr>
+							<tr>
+								<td>Power Requirements,Each ACM</td>
+								<td>ACM board: 12 VDC +/- 20%, 0.5 A min, up to 12 A max depending on power required of
+									connected devices (readers, door modules, PIRs). ACM lock power (optional): 0-30
+									VDC, up to 12 A max (two lock power inputs per ACM)
+								</td>
+							</tr>
+							<tr>
+								<td>Heat Dissipation</td>
+								<td>GCM: 61 BTU/hr, each ACM: 20.5 BTU/hr</td>
+							</tr>
+							<tr>
+								<td>Memory and RTC Backup</td>
+								<td>CR 2032 lithium battery provides RTC backup; database and buffered transactions
+									stored in non-volatile memory</td>
+							</tr>
+							<tr>
+								<td class="table_subtitle" colspan="2">System and Network</td>
+							</tr>
+							<tr>
+								<td>CPU</td>
+								<td>Freescale i.MX6 1 GHz dual core Cortex-A9</td>
+							</tr>
+							<tr>
+								<td>System Memory</td>
+								<td>2 GB RAM</td>
+							</tr>
+							<tr>
+								<td>SD Storage</td>
+								<td>16 GB SD card</td>
+							</tr>
+							<tr>
+								<td>Primary Network Port</td>
+								<td>10/100/1000 Mbps, full duplex, autonegotiate</td>
+							</tr>
+							<tr>
+								<td>Secondary Network Port</td>
+								<td>10/100/1000 Mbps, full duplex, autonegotiate</td>
+							</tr>
+							<tr>
+								<td>Network Encryption</td>
+								<td>AES 256-bit, with custom key management</td>
+							</tr>
+							<tr>
+								<td>Indicators and Switches</td>
+								<td>LCD for diagnostics, LEDs for power, LAN activity, serial port activity, output
+									status, encryption-enable switch</td>
+							</tr>
+							<tr>
+								<td class="table_subtitle" colspan="2">Memory Capacity3</td>
+							</tr>
+							<tr>
+								<td>Ten clearances, five cards/ person, 40-digit card</td>
+								<td>500,000 cardholders</td>
+							</tr>
+
+							<tr>
+								<td>Offline Transaction Buffer Size </td>
+								<td>10,000 minimum, 500,000 maximum</td>
+							</tr>
+							<tr>
+								<td class="table_subtitle" colspan="2">Inputs/Outputs，GCM</td>
+							</tr>
+							<tr>
+								<td>Dedicated Inputs </td>
+								<td>Cabinet tamper, AC fail, low battery</td>
+							</tr>
+							<tr>
+								<td>Distance, GCM to ACM</td>
+								<td>Up to 1.83 m (6 ft)</td>
+							</tr>
+						</table>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 <footer class="text-center bgc_darkblue text-white textp14">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 pt-3 ">
-        <div> <img src="../images/ypro-white.png" width="250" height="50" alt=""/>
+        <div> <a href="../w00_home_en.html"><img src="../images/ypro-white.png" width="250" height="50" alt=""/></a>
 				  <a href="#"><img src="../images/fb_icon.svg" width="35" height="35" alt=""></a></div>
-        <div class="d-inline-block ">ADD：
-         No. 158, Wucuo Rd., Qingshui Dist., Taichung City 436, Taiwan (R.O.C.)&nbsp;&nbsp; </div>
+        <div class="d-inline-block ">ADD：No. 158, Wucuo Rd., Qingshui Dist., Taichung City 436, Taiwan (R.O.C.)&nbsp;&nbsp; </div>
         <div class="d-inline-block"> &nbsp;TEL : +886-4-2620-1610&nbsp;&nbsp;</div>
         <div class="d-inline-block">&nbsp;FAX : +886-4-2620-1611&nbsp;</div>
         <div class="d-inline-block">&nbsp;Email : AmyHsu@ypro.com&nbsp;</div>
@@ -373,15 +485,16 @@
     </div>
   </div>
 </footer>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="../js/jquery-3.4.1.min.js"></script> 
-		<!-- Include all compiled plugins (below), or include individual files as needed --> 
-		<script type="text/javascript" src="../js/slick.js"></script>
-	<script src="../js/popper.min.js"></script> 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script type="text/javascript" src="../js/slick.js"></script>
+	<script src="../js/popper.min.js"></script>
 	<script src="../js/bootstrap-4.4.1.js"></script>
 	<script src="../js/aos.js"></script>
 	<script src="../js/index.js"></script>
 
-	
-	</body>
+
+</body>
+
 </html>

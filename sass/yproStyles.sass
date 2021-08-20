@@ -629,13 +629,7 @@ html,body
 .address
 	font-size: 14px
 	color: $color_yellow
-#Taichung,#Hsinchu,#Tainan,#Shanghai,#Nanjing
-	cursor: pointer
-	&:hover div
-		text-decoration: underline
-		font-size: bold	
-.disabledbtn
-	pointer-events: none;
+
 .os
 	background-image: url(../images/01_osbg.png)
 	background-size: cover
@@ -837,6 +831,7 @@ html,body
 		height: 190px
 		&.en
 			height: 230px
+
 @media(max-width:767px)
 	
 	.mission_content
@@ -847,7 +842,7 @@ html,body
 		box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5)
 		background-color: #fff
 
-@media(min-width:768px)
+@media(min-width:767px)
 	.mission_text
 		top: -60px
 	.mission
@@ -883,6 +878,17 @@ html,body
 		font-size: 14px
 	.poa-map.en
 		padding: 3rem 3rem
+	#Taichung,#Hsinchu,#Tainan,#Shanghai,#Nanjing
+		cursor: pointer
+		&:hover div
+			text-decoration: underline
+			font-weight: bold
+
+	.disabledbtn
+		pointer-events: none
+		font-weight: bold
+		& > div:first-child
+			font-size: 15px
 	.future_gray
 		position: absolute
 		width: 270px
@@ -948,7 +954,7 @@ html,body
 	.mission_text
 		top: -65px
 	.mission
-		background-image: url("../images/beautiful-city-chongqing.jpg")
+		background-image: url("../images/01-mission.jpg")
 		background-repeat: no-repeat
 		background-position: center
 		height: 270px
@@ -962,6 +968,8 @@ html,body
 		background-color: $color_darkblue
 		color: #fff
 		padding: 3rem 5rem
+	.disabledbtn > div:first-child
+			font-size: 19px
 	.country.en
 		margin: 0
 		font-size: 20px
